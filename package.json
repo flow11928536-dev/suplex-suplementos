@@ -3,11 +3,11 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
-    "build:next": "next build --no-lint",
-    "build": "npm run build:next && opennextjs-cloudflare build",
-    "lint": "eslint ."
-  },
+  "dev": "next dev -p 3000",
+  "build": "next build --no-lint",
+  "cf:build": "opennextjs-cloudflare build",
+  "lint": "eslint ."
+},
   "dependencies": {
     "@opennextjs/cloudflare": "^1.19.11",
     "@radix-ui/react-accordion": "^1.2.11",
