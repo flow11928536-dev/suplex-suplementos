@@ -3,6 +3,8 @@ import { products, categories } from '@/lib/store-data'
 import { blogPosts } from '@/lib/blog-data'
 import { faqItems } from '@/lib/faq-data'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://suplexsuplementos.com.br'
 
