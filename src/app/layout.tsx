@@ -64,10 +64,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        {/* Google Analytics — script nativo async conforme recomendação do Google */}
+        {/* Google Analytics */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZGBD01Y9KP"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZLX40XH3X8"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -75,7 +75,7 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-ZGBD01Y9KP');
+              gtag('config', 'G-ZLX40XH3X8');
             `,
           }}
         />
