@@ -22,6 +22,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
+const formatDate = (dateStr: string) => {
+  return new Date(dateStr).toISOString()
+}
+
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = getBlogPostBySlug(params.slug) || blogPosts[0]
 
@@ -34,6 +38,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     author: {
       '@type': 'Person',
       name: post.author,
+      url: 'https://suplex-suplementos.pages.dev/sobre',
     },
     publisher: {
       '@type': 'Organization',
@@ -43,8 +48,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         url: 'https://suplex-suplementos.pages.dev/logo.png',
       },
     },
-    datePublished: post.date,
-    dateModified: post.date,
+    datePublished: formatDate(post.date),
+    dateModified: formatDate(post.date),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://suplex-suplementos.pages.dev/blog/${post.slug}`,
