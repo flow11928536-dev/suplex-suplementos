@@ -35,12 +35,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://suplexsuplementos.com.br/",
+    canonical: "https://suplex-suplementos.pages.dev/",
   },
   openGraph: {
     title: "Suplex Suplementos - Reviews e Melhores Preços 2026",
     description: "Site de referência em suplementos no Brasil. Reviews honestas, comparativas e guias completos.",
-    url: "https://suplexsuplementos.com.br/",
+    url: "https://suplex-suplementos.pages.dev/",
     siteName: "Suplex Suplementos",
     locale: "pt_BR",
     type: "website",
@@ -64,7 +64,6 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        {/* JSON-LD: Organization */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -72,8 +71,8 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'Suplex Suplementos',
-              url: 'https://suplexsuplementos.com.br',
-              logo: 'https://suplexsuplementos.com.br/logo.png',
+              url: 'https://suplex-suplementos.pages.dev',
+              logo: 'https://suplex-suplementos.pages.dev/logo.png',
               description: 'Site de referência em suplementos no Brasil.',
               sameAs: [
                 'https://instagram.com/suplexsuplementos',
@@ -83,7 +82,6 @@ export default function RootLayout({
             }),
           }}
         />
-        {/* JSON-LD: WebSite (SearchAction) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -91,7 +89,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               name: 'Suplex Suplementos',
-              url: 'https://suplexsuplementos.com.br',
+              url: 'https://suplex-suplementos.pages.dev',
               inLanguage: 'pt-BR',
             }),
           }}

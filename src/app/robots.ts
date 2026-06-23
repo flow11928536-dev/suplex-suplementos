@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next'
 
+export const dynamic = 'force-static'
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/private/'],
     },
-    sitemap: 'https://suplexsuplementos.com.br/sitemap.xml',
-    host: 'https://suplexsuplementos.com.br',
+    sitemap: 'https://suplex-suplementos.pages.dev/sitemap.xml',
+    host: 'https://suplex-suplementos.pages.dev',
   }
 }

@@ -6,7 +6,7 @@ import { faqItems } from '@/lib/faq-data'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://suplexsuplementos.com.br'
+  const baseUrl = 'https://suplex-suplementos.pages.dev'
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/`, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
