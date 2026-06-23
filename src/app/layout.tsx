@@ -54,6 +54,9 @@ export const metadata: Metadata = {
     google: "google-site-verification-code",
   },
   category: "health",
+  other: {
+    "p:domain_verify": "718e748777b16c73469a7a9858630d84",
+  },
 };
 
 export default function RootLayout({
