@@ -64,23 +64,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      
       <head>
-        {/* Google Analytics */}
-        <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-ZGBD01Y9KP"
-        strategy="beforeInteractive"
-      />
-
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-ZGBD01Y9KP');
-        `}
-      </Script>
-
         {/* JSON-LD Organization */}
         <script
           type="application/ld+json"
@@ -119,6 +103,21 @@ export default function RootLayout({
       <body className={`${geistSans.variable} antialiased bg-white text-gray-900`}>
         {children}
         <Toaster />
+
+        {/* Google Analytics — fora do head, strategy afterInteractive */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZGBD01Y9KP"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZGBD01Y9KP');
+          `}
+        </Script>
+
       </body>
     </html>
   );
