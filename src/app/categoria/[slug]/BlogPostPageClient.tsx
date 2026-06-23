@@ -7,7 +7,11 @@ import { ProductGrid } from '@/components/store/product-grid'
 import { products, categories } from '@/lib/store-data'
 import { Filter, ChevronRight } from 'lucide-react'
 
-export default function CategoryPageClient({ slug }: { slug: string }) {
+export default function CategoryPageClient({
+  slug,
+}: {
+  slug: string
+}) {
   const [sortBy, setSortBy] = useState('relevance')
 
   const category = categories.find((c) => c.slug === slug)
@@ -17,46 +21,63 @@ export default function CategoryPageClient({ slug }: { slug: string }) {
     ...(categoryProducts.length > 0 ? categoryProducts : products),
   ]
 
-  if (sortBy === 'name') sortedProducts.sort((a, b) => a.name.localeCompare(b.name))
-  if (sortBy === 'rating') sortedProducts.sort((a, b) => b.rating - a.rating)
-  if (sortBy === 'reviews') sortedProducts.sort((a, b) => b.reviews - a.reviews)
+  if (sortBy === 'name')
+    sortedProducts.sort((a, b) => a.name.localeCompare(b.name))
+
+  if (sortBy === 'rating')
+    sortedProducts.sort((a, b) => b.rating - a.rating)
+
+  if (sortBy === 'reviews')
+    sortedProducts.sort((a, b) => b.reviews - a.reviews)
 
   return (
     <>
       <Header />
+
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center gap-2 text-xs text-gray-500">
-          <a href="/" className="hover:text-sky-500">Início</a>
+          <a href="/" className="hover:text-sky-500">
+            Início
+          </a>
           <ChevronRight className="w-3 h-3" />
-          <span className="text-gray-900 font-medium">{category?.name || 'Categoria'}</span>
+          <span className="text-gray-900 font-medium">
+            {category?.name || 'Categoria'}
+          </span>
         </nav>
       </div>
+
       <div className="bg-white min-h-screen">
         <div className="container mx-auto px-4 pb-8">
           <div className="mb-6">
             <h1 className="text-2xl sm:text-3xl font-black text-gray-900 mb-2">
               {category?.name || 'Todos os Produtos'}
             </h1>
+
             <p className="text-sm text-gray-600 max-w-2xl">
-              {category?.name === 'Whey Protein' && 'Whey Protein é o suplemento mais popular do mundo. Rico em proteína de alta qualidade, acelera a recuperação muscular, promove hipertrofia e complementa a dieta.'}
-              {category?.name === 'Creatina' && 'Creatina é o suplemento mais estudado cientificamente. Aumenta força, potência e volume muscular.'}
-              {category?.name === 'Pré-Treino' && 'Pré-treinos aumentam energia, foco e performance nos treinos.'}
-              {category?.name === 'Aminoácidos' && 'Aminoácidos como BCAA e Glutamina são essenciais para recuperação muscular.'}
-              {category?.name === 'Hipercalóricos' && 'Hipercalóricos são para quem quer ganhar peso e massa muscular.'}
-              {category?.name === 'Vitaminas e Minerais' && 'Vitaminas e minerais essenciais para saúde, performance e bem-estar.'}
-              {category?.name === 'Emagrecimento' && 'Termogênicos e suplementos para emagrecimento.'}
-              {category?.name === 'Colágeno' && 'Colágeno hidrolisado para pele, cabelo, unhas e articulações.'}
-              {category?.name === 'Snacks e Barras' && 'Barras de proteína e snacks saudáveis para comer entre as refeições.'}
-              {category?.name === 'Acessórios' && 'Acessórios para treino: shakers, garrafas, cintas e muito mais.'}
+              {category?.name === 'Whey Protein' &&
+                'Whey Protein é o suplemento mais popular do mundo. Rico em proteína de alta qualidade, acelera a recuperação muscular, promove hipertrofia e complementa a dieta.'}
+              {category?.name === 'Creatina' &&
+                'Creatina é o suplemento mais estudado cientificamente. Aumenta força, potência e volume muscular.'}
+              {category?.name === 'Pré-Treino' &&
+                'Pré-treinos aumentam energia, foco e performance nos treinos.'}
             </p>
           </div>
+
           <div className="flex items-center justify-between mb-4 pb-4 border-b">
             <button className="flex items-center gap-2 text-sm font-semibold text-gray-700 lg:hidden">
-              <Filter className="w-4 h-4" /> Filtros
+              <Filter className="w-4 h-4" />
+              Filtros
             </button>
-            <span className="text-sm text-gray-500">{sortedProducts.length} produtos</span>
+
+            <span className="text-sm text-gray-500">
+              {sortedProducts.length} produtos
+            </span>
+
             <div className="flex items-center gap-2">
-              <span className="text-sm text-gray-500 hidden sm:inline">Ordenar:</span>
+              <span className="text-sm text-gray-500 hidden sm:inline">
+                Ordenar:
+              </span>
+
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
@@ -69,9 +90,11 @@ export default function CategoryPageClient({ slug }: { slug: string }) {
               </select>
             </div>
           </div>
+
           <ProductGrid title="" products={sortedProducts} />
         </div>
       </div>
+
       <Footer />
     </>
   )
