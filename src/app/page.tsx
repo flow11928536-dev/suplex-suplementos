@@ -25,6 +25,9 @@ export default function Home() {
       <Header />
 
       <main>
+        {/* H1 visualmente oculto mas presente para SEO */}
+        <h1 className="sr-only">Suplex Suplementos - Reviews, Comparativas e Melhores Preços</h1>
+
         <HeroCarousel />
         <Pitchbar />
 

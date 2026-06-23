@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: "Suplex Suplementos - Reviews, Comparativas e Melhores Preços 2026",
     template: "%s | Suplex Suplementos",
   },
-  description: "Site de referência em suplementos no Brasil. Reviews honestas, comparativas de preços, guias completos de whey protein, creatina, pré-treino e muito mais. Encontre o melhor suplemento pelo melhor preço!",
+  description: "Reviews honestas, comparativas de preços e guias completos de whey protein, creatina, pré-treino e mais. Encontre o melhor suplemento pelo melhor preço!",
   keywords: [
     "suplementos", "whey protein", "creatina", "pré-treino", "BCAA", "hipercalórico",
     "colágeno", "vitaminas", "termogênico", "suplementos alimentares", "musculação",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Suplex Suplementos - Reviews e Melhores Preços 2026",
-    description: "Site de referência em suplementos no Brasil. Reviews honestas, comparativas e guias completos.",
+    description: "Reviews honestas, comparativas e guias completos de suplementos.",
     url: "https://suplex-suplementos.pages.dev/",
     siteName: "Suplex Suplementos",
     locale: "pt_BR",
