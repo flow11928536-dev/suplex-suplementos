@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -63,38 +64,58 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      
       <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZGBD01Y9KP"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZGBD01Y9KP');
+          `}
+        </Script>
+
+        {/* JSON-LD Organization */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Organization',
-              name: 'Suplex Suplementos',
-              url: 'https://suplex-suplementos.pages.dev',
-              logo: 'https://suplex-suplementos.pages.dev/logo.png',
-              description: 'Site de referência em suplementos no Brasil.',
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Suplex Suplementos",
+              url: "https://suplex-suplementos.pages.dev",
+              logo: "https://suplex-suplementos.pages.dev/logo.png",
+              description: "Site de referência em suplementos no Brasil.",
               sameAs: [
-                'https://instagram.com/suplexsuplementos',
-                'https://facebook.com/suplexsuplementos',
-                'https://youtube.com/suplexsuplementos',
+                "https://instagram.com/suplexsuplementos",
+                "https://facebook.com/suplexsuplementos",
+                "https://youtube.com/suplexsuplementos",
               ],
             }),
           }}
         />
+
+        {/* JSON-LD Website */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              name: 'Suplex Suplementos',
-              url: 'https://suplex-suplementos.pages.dev',
-              inLanguage: 'pt-BR',
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Suplex Suplementos",
+              url: "https://suplex-suplementos.pages.dev",
+              inLanguage: "pt-BR",
             }),
           }}
         />
       </head>
+
       <body className={`${geistSans.variable} antialiased bg-white text-gray-900`}>
         {children}
         <Toaster />
