@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,6 +64,22 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
+        {/* Google Analytics — script nativo async conforme recomendação do Google */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZGBD01Y9KP"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZGBD01Y9KP');
+            `,
+          }}
+        />
+
         {/* JSON-LD Organization */}
         <script
           type="application/ld+json"
@@ -103,21 +118,6 @@ export default function RootLayout({
       <body className={`${geistSans.variable} antialiased bg-white text-gray-900`}>
         {children}
         <Toaster />
-
-        {/* Google Analytics — fora do head, strategy afterInteractive */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZGBD01Y9KP"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZGBD01Y9KP');
-          `}
-        </Script>
-
       </body>
     </html>
   );
