@@ -44,11 +44,20 @@ export const metadata: Metadata = {
     siteName: "Suplex Suplementos",
     locale: "pt_BR",
     type: "website",
+    images: [
+      {
+        url: "https://suplex-suplementos.pages.dev/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Suplex Suplementos - Reviews e Melhores Preços de Suplementos no Brasil",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Suplex Suplementos - Reviews e Melhores Preços",
     description: "Reviews honestas, comparativas e guias completos de suplementos.",
+    images: ["https://suplex-suplementos.pages.dev/og-image.jpg"],
   },
   verification: {
     google: "google-site-verification-code",

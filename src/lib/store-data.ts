@@ -2412,6 +2412,242 @@ export const products: Product[] = [
     { question: "Quanto tempo dura um pote de 60 cápsulas?", answer: "Com 1 cápsula por dia, o pote rende 60 dias (2 meses) de suplementação." },
   ],
 },
+{
+  id: "57", // 🔢 Ajuste o ID conforme o próximo da sua lista
+  name: "Vitamina C 120 Cápsulas Growth Supplements Natural",
+  slug: "vitamina-c-120-capsulas-growth-supplements-natural",
+  category: "vitaminas-e-minerais",
+  categoryName: "Vitaminas e Minerais",
+  affiliateLink: "https://meli.la/SEU-LINK-AQUI", // 🔗 Substitua pelo seu link de afiliado
+  image: "/images/produtos/vitamina-c-120-capsulas-growth-supplements-natural.webp",
+  badge: "Mais Vendido",
+  sold: "+1000 vendidos",
+  rating: 4.9,
+  reviews: 421,
+  shortDescription: "Vitamina C 45mg em 120 cápsulas da Growth Supplements. Antioxidante natural, suporte imunológico, formação de colágeno e recuperação muscular. Sem glúten.",
+  description: "Poucas vitaminas têm papel tão amplo e comprovado no organismo quanto a vitamina C — e a Growth Supplements entrega esse nutriente essencial na dose certa, em cápsulas práticas para o dia a dia. Com mais de 1000 unidades vendidas e avaliação de 4.9 no Mercado Livre, a Vitamina C 120 Cápsulas é a escolha de quem quer cuidar da saúde de forma séria e acessível. Cada cápsula de 500mg fornece 45mg de ácido ascórbico — a forma mais estudada e bem absorvida da vitamina C — cobrindo 100% da IDR diária com apenas uma dose. Sua ação antioxidante neutraliza os radicais livres produzidos durante exercícios físicos intensos, protegendo células musculares e reduzindo o tempo de recuperação. Além disso, a vitamina C é cofator indispensável na síntese de colágeno, fortalecendo pele, tendões, ligamentos e vasos sanguíneos. Livre de glúten e com fórmula limpa, é um dos suplementos mais versáteis e indicados para qualquer rotina — atleta ou não.",
+  benefits: [
+    "45mg de vitamina C por cápsula — 100% da IDR diária em uma única dose",
+    "Potente ação antioxidante que neutraliza radicais livres gerados pelo exercício",
+    "Estimula a síntese natural de colágeno para pele, tendões e ligamentos",
+    "Fortalece e regula o sistema imunológico contra infecções",
+    "Auxilia na recuperação muscular pós-treino de alta intensidade",
+    "Protege a integridade das paredes dos vasos sanguíneos",
+    "Retarda o envelhecimento celular ao combater o estresse oxidativo",
+    "Livre de glúten — fórmula limpa e segura para o consumo diário",
+    "120 cápsulas — 4 meses de suplementação contínua com 1 dose diária",
+  ],
+  howToUse: "Tomar 1 cápsula por dia, preferencialmente junto a uma refeição para facilitar a absorção. Não exceder 1 porção diária. Indicado para maiores de 19 anos. Crianças, gestantes, idosos e portadores de qualquer enfermidade devem consultar médico e/ou nutricionista antes do uso.",
+  ingredients: "Amido de milho, Vitamina C (ácido ascórbico) 45mg, Gelatina, Umectante Glicerina. Não contém glúten. Peso líquido: 60g. Porção: 1 cápsula de 500mg.",
+  whoShouldUse: "Indicado para adultos acima de 19 anos que buscam reforço imunológico, proteção antioxidante, saúde da pele e recuperação muscular. Especialmente recomendado para praticantes de atividades físicas intensas que sofrem maior estresse oxidativo. Também indicado para quem tem alimentação com baixa ingestão de frutas cítricas e vegetais frescos.",
+  faq: [
+    {
+      question: "Qual a quantidade de vitamina C em cada cápsula?",
+      answer: "Cada cápsula fornece 45mg de vitamina C (ácido ascórbico), correspondendo a 100% da IDR — Ingestão Diária Recomendada para adultos saudáveis."
+    },
+    {
+      question: "Quantas doses tem o pote de 120 cápsulas?",
+      answer: "Com a dose recomendada de 1 cápsula por dia, o pote rende 120 dias de uso contínuo — equivalente a 4 meses completos de suplementação."
+    },
+    {
+      question: "A Vitamina C Growth Supplements contém glúten?",
+      answer: "Não. O produto é livre de glúten, sendo seguro para pessoas com doença celíaca ou sensibilidade ao glúten."
+    },
+    {
+      question: "Posso tomar vitamina C em jejum?",
+      answer: "A Growth Supplements recomenda consumir junto com alimentos para facilitar a assimilação e reduzir qualquer desconforto gástrico. Prefira tomar na refeição principal do dia."
+    },
+    {
+      question: "A vitamina C realmente ajuda na recuperação muscular?",
+      answer: "Sim. Durante exercícios intensos, o corpo produz radicais livres que danificam fibras musculares. A vitamina C atua como antioxidante, neutralizando esses compostos e contribuindo para a recuperação mais rápida após o treino."
+    },
+    {
+      question: "Gestantes e crianças podem tomar?",
+      answer: "Gestantes, lactantes, crianças e portadores de enfermidades devem consultar médico e/ou nutricionista antes de iniciar o uso. O produto é indicado para adultos acima de 19 anos sem orientação específica."
+    },
+    {
+      question: "A vitamina C auxilia na produção de colágeno?",
+      answer: "Sim. A vitamina C é cofator essencial na síntese de colágeno — a proteína mais abundante do corpo humano. Sem ela, o organismo não consegue produzir colágeno de forma eficiente, comprometendo a saúde da pele, tendões, ligamentos e cartilagens."
+    },
+  ],
+},
+{
+  id: "58", // 🔢 Ajuste o ID conforme o próximo da sua lista
+  name: "Ômega 3 EPA DHA 60 Cápsulas Dark Lab 1000mg",
+  slug: "omega-3-epa-dha-60-capsulas-dark-lab-1000mg",
+  category: "vitaminas-e-minerais",
+  categoryName: "Vitaminas e Minerais",
+  affiliateLink: "https://meli.la/SEU-LINK-AQUI", // 🔗 Substitua pelo seu link de afiliado
+  image: "/images/produtos/omega-3-epa-dha-60-capsulas-dark-lab-1000mg.webp",
+  badge: "49% OFF",
+  sold: "+1000 vendidos",
+  rating: 4.9,
+  reviews: 6210,
+  shortDescription: "Ômega 3 EPA e DHA 1000mg em 60 cápsulas da Dark Lab. Óleo de peixe de alta qualidade para saúde cardiovascular, função cerebral, imunidade e controle inflamatório. Sem glúten.",
+  description: "O Ômega 3 EPA e DHA da Dark Lab é um dos suplementos mais completos e necessários para quem leva a saúde a sério — e os números confirmam: mais de 1000 unidades vendidas e 6210 avaliações com nota 4.9 no Mercado Livre. Formulado com óleo de peixe de alta qualidade, cada cápsula de 1000mg concentra os dois ácidos graxos essenciais mais estudados da ciência nutricional: o EPA (Ácido Eicosapentaenoico) e o DHA (Ácido Docosahexaenoico). O corpo humano não produz esses nutrientes sozinho — eles precisam vir da alimentação ou da suplementação. O EPA atua diretamente no controle de processos inflamatórios e na proteção cardiovascular, enquanto o DHA é componente estrutural do cérebro e da retina, sendo fundamental para memória, raciocínio e saúde ocular. Juntos, formam um dos combos mais poderosos para longevidade e qualidade de vida. Certificado IFOS para garantia de pureza e livre de glúten.",
+  benefits: [
+    "1000mg de óleo de peixe com alta concentração de EPA e DHA por cápsula",
+    "Proteção cardiovascular — reduz triglicerídeos e apoia a saúde do coração",
+    "Suporte à função cerebral, memória e raciocínio com DHA",
+    "Controle natural de processos inflamatórios com EPA",
+    "Fortalecimento do sistema imunológico para maior resistência",
+    "Contribui para a saúde ocular — DHA é componente estrutural da retina",
+    "Certificado IFOS — padrão internacional de pureza e qualidade",
+    "Livre de glúten — fórmula limpa para uso diário",
+    "Mais de 6200 avaliações positivas — aprovado por quem usa",
+  ],
+  howToUse: "Ingerir 1 a 2 cápsulas ao dia, preferencialmente junto às refeições para melhorar a absorção dos ácidos graxos. Pode ser consumido no almoço ou jantar. Não exceder a dose diária recomendada. Indicado para maiores de 19 anos. Consulte médico ou nutricionista antes de iniciar o uso.",
+  ingredients: "Óleo de Peixe (fonte de Ômega 3 — EPA e DHA), Gelatina, Umectante Glicerina. Não contém glúten. Peso líquido: 100g. Porção: 1 a 2 cápsulas ao dia.",
+  whoShouldUse: "Indicado para adultos acima de 19 anos que buscam saúde cardiovascular, função cerebral, controle inflamatório e suporte imunológico. Especialmente recomendado para praticantes de atividades físicas, pessoas com dieta pobre em peixes e indivíduos acima de 30 anos que desejam prevenir doenças crônicas e preservar a saúde a longo prazo.",
+  faq: [
+    {
+      question: "O que é EPA e DHA e por que são importantes?",
+      answer: "EPA (Ácido Eicosapentaenoico) e DHA (Ácido Docosahexaenoico) são ácidos graxos essenciais da família ômega 3 que o organismo não consegue produzir sozinho. O EPA atua no controle inflamatório e na saúde cardiovascular, enquanto o DHA é componente estrutural do cérebro e da retina, sendo essencial para memória e visão."
+    },
+    {
+      question: "Quantas cápsulas devo tomar por dia?",
+      answer: "A recomendação é de 1 a 2 cápsulas ao dia, preferencialmente junto às refeições. Para orientação personalizada sobre a dose ideal para seu objetivo, consulte um médico ou nutricionista."
+    },
+    {
+      question: "O Ômega 3 Dark Lab contém glúten?",
+      answer: "Não. O produto é livre de glúten, sendo seguro para celíacos e pessoas com sensibilidade ao glúten."
+    },
+    {
+      question: "Por que tomar ômega 3 junto com as refeições?",
+      answer: "Os ácidos graxos EPA e DHA são nutrientes lipossolúveis — ou seja, são melhor absorvidos quando consumidos na presença de gorduras alimentares, presentes nas refeições principais. Tomar em jejum pode reduzir a absorção e causar desconforto gástrico em algumas pessoas."
+    },
+    {
+      question: "O ômega 3 realmente ajuda o coração?",
+      answer: "Sim. Diversos estudos científicos comprovam que a suplementação com EPA e DHA contribui para a redução dos triglicerídeos, melhora do colesterol HDL e proteção das paredes dos vasos sanguíneos, sendo amplamente recomendado por cardiologistas como suporte à saúde cardiovascular."
+    },
+    {
+      question: "Quantas doses tem o pote de 60 cápsulas?",
+      answer: "Tomando 1 cápsula por dia, o pote rende 60 doses — dois meses de suplementação. Na dose de 2 cápsulas diárias, o pote dura 30 dias."
+    },
+    {
+      question: "Pessoas alérgicas a frutos do mar podem tomar?",
+      answer: "O produto é derivado de óleo de peixe. Pessoas com alergia a frutos do mar ou peixes devem consultar um médico antes de iniciar o uso, pois pode haver reação cruzada dependendo do tipo de alergia."
+    },
+  ],
+},
+{
+  id: "59", // 🔢 Ajuste o ID conforme o próximo da sua lista
+  name: "Zinco Quelato Easy Boost Bisglicinato 100% 29mg 90 Cápsulas",
+  slug: "zinco-quelato-easy-boost-bisglicinato-29mg-90-capsulas",
+  category: "vitaminas-e-minerais",
+  categoryName: "Vitaminas e Minerais",
+  affiliateLink: "https://meli.la/SEU-LINK-AQUI", // 🔗 Substitua pelo seu link de afiliado
+  image: "/images/produtos/zinco-quelato-easy-boost-bisglicinato-29mg-90-capsulas.webp",
+  badge: "Mais Vendido",
+  sold: "+10 mil vendidos",
+  rating: 4.9,
+  reviews: 2314,
+  shortDescription: "Zinco Quelato Bisglicinato 100% 29mg em 90 cápsulas da Easy Boost. 264% do VD por dose, sem glúten, sem lactose, sabor neutro. 1º em Suplementos Easy Boost no Mercado Livre.",
+  description: "O zinco é um mineral que participa de mais de 300 reações enzimáticas no corpo humano — e mesmo assim é um dos nutrientes com maior índice de deficiência na população brasileira. O Zinco Quelato Bisglicinato 100% da Easy Boost resolve isso com eficiência: cada cápsula entrega 29mg de zinco na forma quelato, a versão com maior biodisponibilidade do mercado, garantindo absorção superior em comparação ao zinco comum. Com mais de 10 mil unidades vendidas e 1º lugar em Suplementos Alimentares Easy Boost no Mercado Livre, este produto é referência em custo-benefício e qualidade comprovada por mais de 2300 avaliações com nota 4.9. A forma bisglicinato — zinco ligado ao aminoácido glicina — é mais gentil com o trato gastrointestinal e apresenta menor risco de competição com outros minerais na absorção. Cada pote contém 90 cápsulas, o equivalente a 3 meses completos de suplementação. Sem glúten, sem lactose e validade mínima de 12 meses.",
+  benefits: [
+    "29mg de Zinco Quelato Bisglicinato por cápsula — 264% do Valor Diário",
+    "Forma quelato com maior biodisponibilidade — absorção superior ao zinco comum",
+    "Fortalece o sistema imunológico e aumenta a resistência a infecções",
+    "Essencial para a síntese de proteínas e recuperação muscular pós-treino",
+    "Suporte à produção natural de testosterona e equilíbrio hormonal",
+    "Contribui para a saúde da pele, cabelos e unhas",
+    "Participa de mais de 300 reações enzimáticas no organismo",
+    "Sem glúten e sem lactose — seguro para intolerantes",
+    "90 cápsulas — 3 meses de suplementação com validade mínima de 12 meses",
+  ],
+  howToUse: "Ingerir 1 cápsula ao dia (0,7g), preferencialmente junto a uma refeição para facilitar a absorção. Não exceder a dose diária recomendada. Indicado para maiores de 19 anos. Consulte médico ou nutricionista antes de iniciar o uso.",
+  ingredients: "Zinco Quelato Bisglicinato 100% 29mg por porção. Porção: 0,7g. Conteúdo: 90 cápsulas. Não contém glúten. Não contém lactose. Sabor neutro.",
+  whoShouldUse: "Indicado para adultos acima de 19 anos que buscam reforço imunológico, equilíbrio hormonal, saúde da pele e suporte à recuperação muscular. Especialmente recomendado para atletas, pessoas com dieta restritiva, vegetarianos e veganos — grupos com maior risco de deficiência de zinco. Também indicado para quem busca melhorar a qualidade do sono e a disposição diária.",
+  faq: [
+    {
+      question: "Qual a diferença entre zinco quelato e zinco comum?",
+      answer: "O zinco quelato (bisglicinato) é o mineral ligado ao aminoácido glicina, formando um composto de maior estabilidade e absorção intestinal. O zinco comum (óxido ou sulfato) compete com outros minerais na absorção e pode causar desconforto gástrico. O quelato é absorvido com mais eficiência e é mais gentil com o estômago."
+    },
+    {
+      question: "Quantas doses tem o pote de 90 cápsulas?",
+      answer: "Com a dose recomendada de 1 cápsula por dia, o pote rende 90 doses — exatamente 3 meses completos de suplementação contínua."
+    },
+    {
+      question: "O Zinco Easy Boost contém glúten ou lactose?",
+      answer: "Não. O produto é livre de glúten e lactose, sendo seguro para celíacos, intolerantes à lactose e pessoas com restrições alimentares."
+    },
+    {
+      question: "O zinco realmente ajuda na imunidade?",
+      answer: "Sim. O zinco é um dos minerais mais importantes para o funcionamento do sistema imunológico. Ele participa da produção e ativação de células de defesa, reduz a duração de processos infecciosos e protege as células contra danos oxidativos."
+    },
+    {
+      question: "O zinco quelato ajuda na produção de testosterona?",
+      answer: "Sim. O zinco é cofator essencial na síntese de testosterona. Homens com deficiência desse mineral frequentemente apresentam níveis hormonais abaixo do ideal. A suplementação, especialmente com a forma quelato de alta absorção, pode ajudar a normalizar os níveis hormonais quando há deficiência."
+    },
+    {
+      question: "Qual a validade do produto?",
+      answer: "O pote de Zinco Quelato Easy Boost tem validade mínima de 12 meses a partir da data de compra, garantindo qualidade e segurança durante todo o período de uso."
+    },
+    {
+      question: "Posso tomar zinco junto com outros suplementos?",
+      answer: "Sim, na maioria dos casos. Porém, evite tomar junto com suplementos de cálcio, ferro ou magnésio na mesma dose, pois esses minerais competem pela absorção intestinal. O ideal é espaçar o consumo com pelo menos 2 horas de intervalo entre eles."
+    },
+  ],
+},
+{
+  id: "60", // 🔢 Ajuste o ID conforme o próximo da sua lista
+  name: "Creatina Monohidratada Pura 300g Pote 100% FTW Suplemento em Pó",
+  slug: "creatina-monohidratada-pura-300g-pote-ftw-suplemento-po",
+  category: "creatina",
+  categoryName: "Creatina",
+  affiliateLink: "https://meli.la/SEU-LINK-AQUI", // 🔗 Substitua pelo seu link de afiliado
+  image: "/images/produtos/creatina-monohidratada-pura-300g-pote-ftw-suplemento-po.webp",
+  badge: "Mais Vendido",
+  sold: "+50 mil vendidos",
+  rating: 4.8,
+  reviews: 33474,
+  shortDescription: "Creatina Monohidratada Micronizada 100% Pura 300g da FTW. 3g por dose, cerca de 100 porções, sem glúten. 3º em Suplementos FTW no Mercado Livre. 47% OFF no Pix.",
+  description: "Com mais de 50 mil unidades vendidas e 33 mil avaliações com nota 4.8, a Creatina Monohidratada Pura da FTW é uma das creatinas mais populares e bem avaliadas do Brasil — e não é à toa. A fórmula é direta ao ponto: creatina monohidratada micronizada 100% pura, sem nenhum aditivo, corante ou mistura desnecessária. A micronização garante partículas menores que se dissolvem com mais facilidade em água ou qualquer bebida, sem resíduos e sem aquele gosto residual que incomoda em produtos de qualidade inferior. Cada pote de 300g rende cerca de 100 porções de 3g — mais de 3 meses de suplementação diária em um único frasco. A creatina monohidratada é o suplemento esportivo com o maior volume de pesquisa científica do mundo: décadas de estudos comprovam seu papel no aumento de força, potência, volume muscular e recuperação acelerada entre as sessões de treino. O mecanismo é simples e eficiente — ela eleva os estoques de fosfocreatina nos músculos, ampliando a disponibilidade de ATP durante esforços de alta intensidade. 3º lugar em Suplementos FTW no Mercado Livre, dispensado de registro conforme RDC nº 240/2018 e livre de glúten.",
+  benefits: [
+    "Creatina monohidratada micronizada 100% pura — zero aditivos ou misturas",
+    "3g por dose com cerca de 100 porções por pote — mais de 3 meses de uso",
+    "Aumenta os estoques de fosfocreatina para mais energia nos treinos",
+    "Melhora força, potência e explosão muscular em exercícios de alta intensidade",
+    "Acelera a recuperação muscular entre sessões de treino",
+    "Contribui para o ganho de volume e massa muscular magra",
+    "Alta solubilidade — dissolve facilmente sem resíduos",
+    "Sem glúten — fórmula limpa certificada pela ANVISA",
+    "Mais de 50 mil vendidos — 3º em Suplementos FTW no Mercado Livre",
+  ],
+  howToUse: "Diluir ½ medida dosadora (3g) em 200ml de água ou bebida de preferência. Consumir uma vez ao dia, preferencialmente após o treino. Nos dias sem treino, manter o consumo diário para saturar os estoques musculares. Após aberto, consumir em até 100 dias. Conservar ao abrigo da luz, calor e umidade. Indicado para maiores de 19 anos.",
+  ingredients: "Creatina Monohidratada Micronizada 100% pura. Não contém glúten. Dispensado de registro conforme RDC nº 240/2018. Porção: 3g (½ medida dosadora). Rendimento: cerca de 100 porções.",
+  whoShouldUse: "Indicado para adultos acima de 19 anos praticantes de musculação, crossfit, esportes de força e qualquer modalidade de alta intensidade que buscam mais força, potência e recuperação muscular. Não indicado para gestantes, lactantes e crianças.",
+  faq: [
+    {
+      question: "A creatina FTW é 100% pura ou tem mistura?",
+      answer: "É 100% creatina monohidratada micronizada, sem adição de outros ingredientes, corantes, aromatizantes ou misturas. Fórmula completamente limpa e transparente."
+    },
+    {
+      question: "Quantas doses tem o pote de 300g?",
+      answer: "Com a dose recomendada de 3g por dia (½ medida dosadora), o pote rende cerca de 100 porções — o equivalente a mais de 3 meses de suplementação diária contínua."
+    },
+    {
+      question: "Preciso fazer fase de saturação com a creatina FTW?",
+      answer: "Não é obrigatório. A fase de saturação (doses maiores por 5 a 7 dias) acelera os resultados iniciais, mas o uso contínuo de 3g por dia atinge o mesmo nível de saturação muscular em 3 a 4 semanas. Ambas as estratégias são válidas."
+    },
+    {
+      question: "Devo tomar creatina nos dias sem treino?",
+      answer: "Sim. A creatina age por efeito acumulativo nos músculos. Manter o consumo diário — inclusive nos dias de descanso — garante que os estoques musculares de fosfocreatina permaneçam saturados, maximizando o desempenho nos treinos seguintes."
+    },
+    {
+      question: "A creatina FTW dissolve bem na água?",
+      answer: "Sim. Por ser micronizada, as partículas são menores e se dissolvem com muito mais facilidade em água ou qualquer bebida, sem deixar resíduos no fundo do copo."
+    },
+    {
+      question: "Após aberto, quanto tempo posso usar o pote?",
+      answer: "Após a abertura, a FTW recomenda consumir o produto em até 100 dias. Mantenha o pote fechado e armazenado em local fresco, seco e ao abrigo da luz e do calor para preservar a qualidade."
+    },
+    {
+      question: "A creatina FTW é registrada na ANVISA?",
+      answer: "O produto é dispensado de registro conforme a Resolução RDC nº 240/2018 da ANVISA, o que é totalmente regular para suplementos alimentares nessa categoria no Brasil. As alegações seguem o Anexo V da IN 28 da ANVISA."
+    },
+  ],
+},
 ]
 
 // ============================================================
@@ -2434,16 +2670,44 @@ export const heroBanners = [
     subtitle: "Aumente força e massa muscular com o suplemento #1 em eficácia científica",
     cta: "Descobrir",
     link: "/categoria/creatina",
-    image: "/images/banners/creatina-barata.png",
+    image: "/images/banners/creatina-barata.jpg",
     bgColor: "from-blue-600 via-sky-500 to-cyan-500",
   },
   {
-    id: 3,
-    
-    cta: "Ler Agora",
-    link: "/blog",
-    image: "/images/banners/whey-gourmet-pamonha.webp",
-    bgColor: "from-green-600 via-emerald-500 to-teal-600",
+  id: 3,
+  title: "Blog de Suplementos",
+  subtitle: "Guias completos, reviews e tudo que você precisa saber antes de comprar",
+  cta: "Ler Agora",
+  link: "/blog",
+  image: "/images/banners/whey-gourmet-pamonha.webp",
+  bgColor: "from-green-600 via-emerald-500 to-teal-600",
+},
+  {
+    id: 4,
+    title: "Pré-Treino para Treinos Explosivos",
+    subtitle: "Energia, foco e resistência para ir além dos seus limites",
+    cta: "Ver Pré-Treinos",
+    link: "/categoria/pre-treino",
+    image: "/images/banners/banner-teste.png", // 🖼️ Substitua pela sua imagem
+    bgColor: "from-red-600 via-orange-500 to-yellow-500",
+  },
+  {
+    id: 5,
+    title: "Hipercalórico para Ganho de Massa",
+    subtitle: "Para quem tem dificuldade de ganhar peso e quer resultados reais",
+    cta: "Ver Hipercalóricos",
+    link: "/categoria/hipercaloricos",
+    image: "/images/banners/hipercaloricos.jpg", // 🖼️ Substitua pela sua imagem
+    bgColor: "from-purple-600 via-violet-500 to-indigo-500",
+  },
+  {
+    id: 6,
+    title: "Vitaminas e Minerais para sua Saúde",
+    subtitle: "Cuide do seu corpo por dentro com os melhores multivitamínicos",
+    cta: "Ver Vitaminas",
+    link: "/categoria/vitaminas-e-minerais",
+    image: "/images/banners/banner.1.jpg", // 🖼️ Substitua pela sua imagem
+    bgColor: "from-teal-600 via-green-500 to-lime-500",
   },
 ]
 
