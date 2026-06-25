@@ -27,14 +27,13 @@ export function ProductDetail({ product, relatedProducts }: ProductDetailProps) 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Image */}
           <div className="relative">
-            <div className="aspect-square bg-gray-50 rounded-3xl overflow-hidden border border-gray-100">
-              {/* 🖼️ IMAGEM DO PRODUTO - Substitua pela imagem real do produto */}
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div className="bg-gray-50 rounded-3xl overflow-hidden border border-gray-100 flex items-center justify-center p-4">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="w-full max-w-sm max-h-[380px] object-contain"
+            />
+          </div>
             {product.badge && (
               <div className="absolute top-4 left-4">
                 <span className="bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg">
