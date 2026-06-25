@@ -17,7 +17,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      images: [post.image],
+      images: [
+        {
+          url: post.image,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        }
+      ],
     },
   }
 }
