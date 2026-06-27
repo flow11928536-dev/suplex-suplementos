@@ -152,14 +152,31 @@ export const categories: Category[] = [
     description: "Coqueteleiras, shakers e muito mais",
     longDescription: "Acessórios para complementar sua rotina de suplementação: coqueteleiras, shakers, medidores e outros itens que facilitam o consumo dos seus suplementos.",
   },
+  {
+  id: "11",
+  name: "Linha Fitness Feminina",
+  slug: "linha-fitness-feminina",
+  icon: "👙",
+  image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=400&q=80",
+  description: "Roupas e acessórios fitness para mulheres",
+  longDescription: "Tudo que você precisa para treinar com estilo e conforto. Selecionamos as melhores roupas fitness, sutiãs esportivos, leggings, tênis e acessórios para mulheres que levam a academia a sério.",
+},
+{
+  id: "12",
+  name: "Kits e Combos",
+  slug: "kits-e-combos",
+  icon: "🎁",
+  image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80",
+  description: "Tapetes, equipamentos e acessórios de ginástica",
+  longDescription: "Equipamentos e acessórios para montar sua academia em casa ou complementar seus treinos. Tapetes de yoga, elásticos, cordas, rolos de massagem e muito mais com os melhores preços.",
+},
 ]
 
 // ============================================================
 // PRODUTOS - MAIS VENDIDOS NO BRASIL
 // ============================================================
 
-export const products: Product[] = [
- {
+export const products: Product[] = [{
   id: "1",
   name: "W100 Whey Concentrado Pouch 900g Cookies & Cream Nutrata",
   slug: "w100-whey-concentrado-900g-cookies-cream-nutrata",
@@ -182,7 +199,8 @@ export const products: Product[] = [
     "Peptídeos bioativos do soro preservados",
     "Mais de 10 mil vendidos - 1º lugar no Mercado Livre",
     "Processo CFM - filtrado a frio",
-  ],
+
+],
   howToUse: "Diluir 30g (2 colheres dosadoras) em 200ml de água. Consumir 1 a 2 porções ao dia, preferencialmente após o treino, ou conforme orientação do nutricionista ou médico. Recomendado consumir junto com alimentos para facilitar a assimilação.",
   ingredients: "Proteína concentrada do soro do leite (CFM), aroma idêntico ao natural de baunilha, espessante goma xantana, acidulante ácido cítrico, antiumectante dióxido de silício e edulcorante sucralose. Não contém glúten. Contém lactose. Alérgicos: contém derivados de leite e soja. Aromatizado artificialmente.",
   whoShouldUse: "Indicado para atletas e praticantes de musculação acima de 19 anos que buscam ganho de massa muscular, recuperação pós-treino e aumento da ingestão proteica diária. Pessoas com intolerância à lactose devem evitar este produto.",
@@ -2648,6 +2666,353 @@ export const products: Product[] = [
     },
   ],
 },
+{
+  "id": "61",
+  "name": "Kit 3 Calças Feminina Legging Grossa Para Academia Cós Alto",
+  "slug": "kit-3-calcas-feminina-legging-grossa-para-academia-cos-alto",
+  "category": "linha-fitness-feminina",
+  "categoryName": "Leggings",
+  "affiliateLink": "https://meli.la/2gD7JwY",
+  "image": "/images/produtos/kit-3-calcas-feminina-legging-grossa-para-academia-cos-alto.webp",
+  "badge": "Mais Vendido",
+  "sold": "+50 mil vendidos",
+  "rating": 4.5,
+  "reviews": 22270,
+  "shortDescription": "Kit com 3 leggings grossas de cintura alta para academia. Tecido em poliamida e elastano com compressão suave, modelagem anatômica e alta durabilidade. 7ª em Calças e Joggings no Mercado Livre. 14% OFF no Pix com frete grátis.",
+  "description": "Com mais de 50 mil unidades vendidas e mais de 22 mil avaliações com nota 4.5, o Kit 3 Calças Legging Grossa da Academia Cós Alto é a escolha certa para quem não abre mão de conforto, sustentação e estilo nos treinos. Diferente das leggings finas que marcam ou perdem a forma, este modelo é confeccionado em tecido grosso de alta densidade (composição aproximada de 92% poliamida e 8% elastano), que oferece compressão moderada na medida certa – abraça o corpo sem apertar, modela a silhueta e garante total liberdade de movimento para agachamentos, afundos e saltos. O cós alto (que chega até a região da cintura) tem efeito modelador que ajuda a sustentar a barriga e valorizar as curvas, com uma faixa de sustentação que não enrola nem cai durante o exercício. O tecido é respirável e de secagem rápida, ideal para treinos de alta intensidade como musculação, crossfit, corrida, dança e pilates. As costuras são planas e reforçadas para evitar assaduras e aumentar a durabilidade – você pode usar, lavar e usar novamente sem perder a cor, a elasticidade ou a forma original. O kit vem com 3 unidades nas cores mais versáteis (preta, cinza e marsala / ou variação conforme estoque), permitindo montar looks diferentes ao longo da semana. 7º lugar na categoria Calças e Joggings do Mercado Livre, com frete grátis acima de R$ 19 e devolução facilitada em até 30 dias. Se você procura uma legging que realmente acompanhe seu ritmo na academia sem te decepcionar, este kit é o investimento com melhor custo-benefício do momento.",
+  "benefits": [
+    "Kit com 3 leggings grossas – mais variedade e economia em um único pacote",
+    "Tecido grosso de poliamida com elastano que modela e sustenta sem apertar",
+    "Cós alto com efeito modelador – abraça a barriga e valoriza a silhueta",
+    "Compressão suave que oferece segurança nos movimentos sem restringir",
+    "Costuras planas e reforçadas – zero assaduras e maior durabilidade",
+    "Tecido respirável e de secagem rápida – ideal para treinos intensos",
+    "Não desbota, não desfia e não perde a forma mesmo após várias lavagens",
+    "Versátil para academia, crossfit, corrida, pilates, dança ou uso casual",
+    "7ª em Calças e Joggings no Mercado Livre – qualidade reconhecida",
+    "Frete grátis e devolução em até 30 dias – compre sem risco"
+  ],
+  "howToUse": "Calce a legging com cuidado, puxando pelo cós (não pelo tecido da perna) para distribuir igualmente a compressão. Ajuste o cós alto na altura da cintura natural para obter o efeito modelador. Para a lavagem: vire a peça do avesso, lave em água fria ou morna (máximo 40°C) com sabão neutro, sem amaciante (que prejudica a elasticidade do elastano). Não use alvejante, não torça e não seque em secadora – pendure à sombra para preservar as fibras. Secagem rápida em até 2 horas. Consulte a tabela de medidas (busto, cintura, quadril) para escolher o tamanho ideal – o tecido tem boa elasticidade, mas a compressão funciona melhor no tamanho correto.",
+  "ingredients": "Composição aproximada: 92% Poliamida (Nylon) e 8% Elastano (Spandex) – tecido de alta gramatura para maior firmeza e durabilidade. Cós largo com elastano reforçado. Costuras com fios de poliéster de alta resistência. Não contém látex. Produto têxtil, dispensado de registro sanitário.",
+  "whoShouldUse": "Indicado para mulheres de todas as idades que praticam atividades físicas – desde musculação e crossfit até corrida, dança, pilates e yoga. Também recomendado para o dia a dia (look casual com tênis ou bota) devido ao conforto e ao toque macio do tecido. Perfeito para quem busca uma legging que ofereça sustentação, durabilidade e um caimento lisonjeiro. Não há restrições específicas, mas recomenda-se escolher o tamanho adequado para evitar compressão excessiva.",
+  "faq": [
+    {
+      "question": "Qual é a composição do tecido? Essa legging é muito fina?",
+      "answer": "Não, ela é grossa! O tecido tem gramatura elevada, composto por aproximadamente 92% poliamida e 8% elastano. É uma legging encorpada, com compressão suave, que não fica transparente ao agachar e oferece excelente durabilidade."
+    },
+    {
+      "question": "O cós alto realmente modela a barriga?",
+      "answer": "Sim! O cós alto é largo e tem elastano reforçado, que abraça a região abdominal com compressão leve a moderada. Ele ajuda a sustentar e a dar uma sensação de firmeza na barriga, sem apertar ou marcar – valorizando a silhueta."
+    },
+    {
+      "question": "Quais cores vêm no kit?",
+      "answer": "O kit costuma vir com as 3 cores mais pedidas: preto, cinza e marsala (ou variações como vinho, navalho e taupe). Como o estoque pode variar, confirme no anúncio as cores disponíveis no momento da compra."
+    },
+    {
+      "question": "Posso usar essa legging para corrida ou crossfit?",
+      "answer": "Sim! Ela tem boa sustentação e elasticidade para movimentos de alto impacto. O tecido respirável ajuda a evaporar o suor, e as costuras planas evitam assaduras – sendo excelente para corrida, crossfit, HIIT e treinos funcionais."
+    },
+    {
+      "question": "Como lavar a legging para não estragar?",
+      "answer": "Lave sempre do avesso em água fria ou morna (até 40°C) com sabão neutro, sem amaciante. Não torça e não use secadora – pendure à sombra. Esses cuidados preservam a elasticidade e a cor da peça por muito mais tempo."
+    },
+    {
+      "question": "A legging desbota ou desfia com o tempo?",
+      "answer": "Não, se você seguir as instruções de lavagem. O tingimento é de alta qualidade e as fibras de poliamida têm boa resistência a desgastes. As costuras também são reforçadas, então a peça mantém a aparência e a forma mesmo com uso frequente."
+    },
+    {
+      "question": "Como escolher o tamanho certo?",
+      "answer": "Consulte a tabela de medidas no anúncio (normalmente informa quadril, cintura e altura). O tecido tem boa elasticidade, então se estiver entre dois tamanhos, prefira o menor para maior compressão ou o maior para mais conforto – depende da sua preferência."
+    },
+    {
+      "question": "Esse kit é original ou cópia?",
+      "answer": "É um produto de alta qualidade, com materiais selecionados e vendedor verificado no Mercado Livre – a prova são as +50 mil vendidas e as 22 mil avaliações. A marca Academia Cós Alto é referência no segmento de moda fitness."
+    }
+  ]
+},
+{
+  "id": "62",
+  "name": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
+  "slug": "top-puma-original-feminino-alta-sustentacao-academia-fitness",
+  "category": "linha-fitness-feminina",
+  "categoryName": "Tops",
+  "affiliateLink": "https://meli.la/2BHw6N6",
+  "image": "/images/produtos/top-puma-original-feminino-alta-sustentaco-academia-fitness.webp",
+  "badge": "Mais Vendido",
+  "sold": "+250 mil vendidos",
+  "rating": 4.8,
+  "reviews": 71235,
+  "shortDescription": "Top Puma Original modelo nadador com alta sustentação, sem costura e em microfibra respirável. Busto anatômico, base larga e pontos de compressão para suporte muscular. 1º em Tops de Fitness no Mercado Livre com mais de 250 mil vendidos.",
+  "description": "Com mais de 250 mil unidades vendidas e mais de 71 mil avaliações com nota 4.8, o Top Puma Original Feminino Alta Sustentação é o queridinho do momento e líder absoluto na categoria Tops de Fitness — e não é por acaso. Este top foi desenvolvido com a tecnologia de microfibra leve e respirável (composição de 82% poliamida, 16% elastano e 2% polipropileno)[reference:2], que oferece uma combinação perfeita de maciez, elasticidade e durabilidade. O modelo nadador com costas em Y garante total liberdade de movimento[reference:3], enquanto a construção sem costura elimina pontos de atrito e proporciona um ajuste anatômico impecável[reference:4]. O busto anatômico acomoda os seios sem amassar, e a base larga com elástico reforçado de 40 mm oferece a sustentação necessária para treinos de alto impacto[reference:5]. Os pontos de compressão estrategicamente posicionados atuam como suporte e contrapeso muscular, reduzindo a fadiga durante o exercício[reference:6]. Já os pontos de ventilação garantem conforto térmico mesmo nos treinos mais intensos[reference:7], e o acabamento reforçado nas cavas e decote aumenta a durabilidade da peça[reference:8]. Disponível nos tamanhos P (36-38), M (40-42), G (44-46) e EG (48-50)[reference:9], o top é versátil para academia, corrida, crossfit, yoga e até para o dia a dia[reference:10]. Produto 100% original com garantia e nota fiscal[reference:11] — a qualidade Puma que você já conhece, agora com o melhor custo-benefício do mercado.",
+  "benefits": [
+    "Tecido em microfibra leve e respirável — 82% poliamida, 16% elastano e 2% polipropileno",
+    "Modelo nadador com costas em Y — liberdade total de movimento para qualquer atividade",
+    "Construção sem costura — elimina atritos e garante ajuste anatômico perfeito",
+    "Busto anatômico — acomoda os seios sem amassar, com conforto e naturalidade",
+    "Base larga com elástico reforçado de 40 mm — alta sustentação para treinos intensos",
+    "Pontos de compressão estratégicos — suporte e contrapeso muscular para melhor performance",
+    "Pontos de ventilação — conforto térmico e respirabilidade durante o exercício",
+    "Acabamento reforçado nas cavas e decote — maior durabilidade e resistência",
+    "Design sem bojo — leveza e liberdade, sem perder a sustentação",
+    "1º em Tops de Fitness no Mercado Livre — +250 mil vendidos e nota 4.8 com 71 mil avaliações"
+  ],
+  "howToUse": "Vista o top puxando pela barra inferior, ajustando o busto anatômico para um encaixe confortável. As alças tipo nadador devem ficar bem posicionadas nos ombros, sem apertar. Para a lavagem: lave o top do avesso em água fria ou morna (máximo 30°C) com sabão neutro[reference:12]. Não use amaciante, pois ele prejudica a elasticidade do elastano e a respirabilidade da microfibra[reference:13]. Não torça a peça e não use secadora — pendure à sombra para preservar as fibras e a modelagem[reference:14]. O tecido de secagem rápida permite que o top fique pronto para uso em poucas horas[reference:15]. Consulte a tabela de medidas (busto e tórax) para escolher o tamanho ideal — o tecido tem boa elasticidade, mas a sustentação funciona melhor no tamanho correto.",
+  "ingredients": "Composição: 82% Poliamida, 16% Elastano, 2% Polipropileno[reference:16]. Tecido em microfibra de alta performance, leve, respirável e de secagem rápida[reference:17]. Produto têxtil, dispensado de registro sanitário. Modelo: Nadador - Ref: 27070[reference:18].",
+  "whoShouldUse": "Indicado para mulheres de todas as idades que praticam atividades físicas de médio a alto impacto — musculação, crossfit, corrida, HIIT, dança, pilates e yoga[reference:19]. Também recomendado para uso diário (look casual ou esportivo) devido ao conforto e ao design moderno. Perfeito para quem busca um top com alta sustentação, liberdade de movimento e durabilidade. Não há restrições específicas, mas recomenda-se escolher o tamanho adequado para garantir o suporte ideal.",
+  "faq": [
+    {
+      "question": "Este top Puma é original?",
+      "answer": "Sim! Produto 100% original Puma, com garantia e nota fiscal inclusa[reference:20]. A Osure é uma revendedora autorizada com mais de 10 anos de mercado e mais de 2 milhões de pedidos atendidos[reference:21]."
+    },
+    {
+      "question": "Qual é a composição do tecido? Ele é confortável?",
+      "answer": "O tecido é uma microfibra de alta performance composta por 82% poliamida, 16% elastano e 2% polipropileno[reference:22]. É leve, respirável, de secagem rápida e extremamente macio ao toque[reference:23] — ideal para treinos intensos sem perder o conforto."
+    },
+    {
+      "question": "Esse top tem bojo?",
+      "answer": "Não, ele é sem bojo[reference:24]. A sustentação vem da construção anatômica do busto, da base larga com elástico reforçado e dos pontos de compressão estratégicos[reference:25] — tudo pensado para oferecer suporte sem a rigidez de um bojo."
+    },
+    {
+      "question": "Ele realmente sustenta bem para corrida e crossfit?",
+      "answer": "Sim! Ele é classificado como alta sustentação[reference:26], com base larga de 40 mm e pontos de compressão que atuam como contrapeso muscular[reference:27]. É perfeito para corrida, crossfit, HIIT e qualquer treino de alto impacto."
+    },
+    {
+      "question": "Quais tamanhos estão disponíveis?",
+      "answer": "O top está disponível nos tamanhos P (36-38), M (40-42), G (44-46) e EG (48-50)[reference:28]. Consulte a tabela de medidas no anúncio para escolher o tamanho ideal — o tecido tem boa elasticidade, mas o suporte funciona melhor no tamanho correto."
+    },
+    {
+      "question": "Como devo lavar o top Puma para não estragar?",
+      "answer": "Lave do avesso em água fria ou morna (máx. 30°C) com sabão neutro[reference:29]. Nunca use amaciante — ele prejudica a elasticidade e a respirabilidade do tecido[reference:30]. Não torça, não use secadora e pendure à sombra para secar[reference:31]. O tecido de secagem rápida garante que ele fique pronto em poucas horas[reference:32]."
+    },
+    {
+      "question": "O top desbota ou perde a forma com o tempo?",
+      "answer": "Não, se você seguir as instruções de lavagem. A microfibra Puma tem alta resistência a desgastes e o tingimento é de qualidade superior. As costuras reforçadas e o elastano de alta performance garantem que o top mantenha a forma e a cor mesmo com uso frequente[reference:33]."
+    },
+    {
+      "question": "Posso usar este top no dia a dia, fora da academia?",
+      "answer": "Com certeza! O design nadador, o caimento anatômico e a microfibra macia tornam o top superversátil[reference:34]. Ele combina perfeitamente com shorts, saias, calças e jaquetas para um look casual e esportivo."
+    }
+  ]
+},
+{
+  id: "63",
+  name: "Kit Elástico de Resistência 5 Níveis para Treino",
+  slug: "kit-elastico-resistencia-5-niveis-treino",
+  category: "kits-e-combos",
+  categoryName: "Kits e Combos",
+  affiliateLink: "SEU-LINK-AQUI",
+  image: "/images/produtos/kit-elastico-resistencia-5-niveis-treino.webp",
+  badge: "Mais Vendido",
+  rating: 4.8,
+  reviews: 5200,
+  shortDescription: "Kit com 5 elásticos de resistência progressiva para treino em casa, fisioterapia e musculação. Acompanha bolsa.",
+  description: "O Kit Elástico de Resistência com 5 níveis é a solução perfeita para treinar em casa sem precisar de equipamentos pesados. Com resistências variadas (do mais leve ao mais intenso), permite trabalhar diferentes grupos musculares com progressão de carga. Ideal para glúteos, pernas, braços e core. Acompanha bolsa para transporte.",
+  benefits: [
+    "5 níveis de resistência para progressão de carga",
+    "Trabalha glúteos, pernas, braços e core",
+    "Leve e portátil — treino em qualquer lugar",
+    "Acompanha bolsa para transporte",
+    "Ideal para iniciantes e avançados",
+  ],
+  howToUse: "Comece sempre com o elástico de menor resistência para aprender o movimento. Progrida para níveis maiores conforme a força aumenta. Não esticar além de 2,5x o tamanho original.",
+  whoShouldUse: "Pessoas que treinam em casa, praticantes de fisioterapia e quem quer complementar os treinos na academia.",
+  faq: [
+    { question: "Os elásticos são resistentes?", answer: "Sim. São feitos de látex natural de alta qualidade e suportam uso intenso." },
+    { question: "Qual a diferença entre os 5 níveis?", answer: "Cada cor representa uma resistência diferente, do mais leve (amarelo) ao mais pesado (preto), permitindo progressão gradual." },
+  ],
+},
+{
+  "id": "64",
+  "name": "Top Plus Size Com Bojo Reforçado Feminino Academia Fitness",
+  "slug": "top-plus-size-com-bojo-reforcado-feminino-academia-fitness",
+  "category": "linha-fitness-feminina",
+  "categoryName": "Tops",
+  "affiliateLink": "https://meli.la/1K8V7Sd",
+  "image": "/images/produtos/top-plus-size-com-bojo-reforcado-feminino-academia-fitness.webp",
+  "badge": "Mais Vendido",
+  "sold": "+1000 vendidos",
+  "rating": 4.3,
+  "reviews": 611,
+  "shortDescription": "Top plus size com bojo reforçado em tecido Suplex de alta elasticidade. Modelagem anatômica com sustentação, ideal para academia, pilates e uso diário. 4ª em Top5 de Fitness no Mercado Livre.",
+  "description": "Com mais de 1000 unidades vendidas e 611 avaliações com nota 4,3, o Top Plus Size com Bojo Reforçado é a escolha certa para mulheres que buscam conforto, sustentação e estilo em uma única peça. Desenvolvido especialmente para o corpo plus size, este top foi confeccionado em tecido Suplex – uma mistura de poliamida e elastano que oferece alta elasticidade, firmeza, toque macio e secagem rápida. O bojo reforçado proporciona sustentação e modelagem ao busto, garantindo segurança durante treinos de alto impacto e conforto no dia a dia. A modelagem anatômica valoriza as curvas, com compressão leve que sustenta sem apertar – perfeita para musculação, corrida, crossfit, pilates, ioga, caminhada e até para looks casuais. Disponível nos tamanhos G1, G2 e G3, o top atende diferentes biotipos com ajuste preciso. O tecido com tecnologia que evita transparência permite uso com total confiança. 4º lugar em Top5 de Fitness no Mercado Livre, com frete grátis acima de R$ 19 e devolução em até 30 dias. A Conceitual Store, no mercado desde 2012, oferece qualidade e preço justo para você se sentir linda, segura e confortável em qualquer ocasião.",
+  "benefits": [
+    "Bojo reforçado – sustentação e modelagem para o busto com segurança",
+    "Tecido Suplex de alta elasticidade – firme, resistente e com toque macio",
+    "Modelagem anatômica pensada para o corpo plus size – valoriza as curvas",
+    "Compressão leve – sustenta sem apertar, com conforto durante todo o dia",
+    "Ideal para academia, corrida, crossfit, pilates, ioga e caminhada",
+    "Tecido com secagem rápida e tecnologia que evita transparência",
+    "Disponível nos tamanhos G1, G2 e G3 – ajuste perfeito para diferentes biotipos",
+    "Versátil – combina com leggings, shorts, calças de moletom ou jeans",
+    "4ª em Top5 de Fitness no Mercado Livre – qualidade reconhecida",
+    "Frete grátis e devolução em até 30 dias – compre sem risco"
+  ],
+  "howToUse": "Vista o top puxando pela barra inferior, ajustando o bojo para um encaixe confortável. As alças devem ficar bem posicionadas nos ombros, sem apertar. Para a lavagem: lave o top do avesso em água fria ou morna (máximo 30°C) com sabão neutro. Não use amaciante – ele prejudica a elasticidade do elastano e a firmeza do bojo. Não torça e não use secadora – pendure à sombra para preservar as fibras e a modelagem. O tecido Suplex seca rapidamente, ficando pronto em poucas horas. Consulte a tabela de medidas (busto) para escolher o tamanho ideal – G1, G2 ou G3.",
+  "ingredients": "Composição do tecido Suplex: Poliamida e Elastano (proporção típica de 90% poliamida / 10% elastano). Bojo em espuma de poliéster de alta densidade. Tecido de alta performance, leve, respirável, de secagem rápida, toque macio e com tecnologia anti-transparência. Produto têxtil, dispensado de registro sanitário.",
+  "whoShouldUse": "Indicado para mulheres plus size de todas as idades que praticam atividades físicas – musculação, corrida, crossfit, pilates, ioga, caminhada e treino funcional. Também recomendado para uso diário (look casual ou esportivo) devido ao conforto, à sustentação do bojo e ao design moderno. Perfeito para quem busca um top com boa sustentação para busto grande, com modelagem que valoriza as curvas sem sacrificar o conforto. Não há restrições específicas, mas recomenda-se escolher o tamanho adequado (G1, G2 ou G3) com base na medida do busto.",
+  "faq": [
+    {
+      "question": "O top tem bojo fixo ou removível?",
+      "answer": "O top tem bojo reforçado fixo, que garante sustentação e modelagem consistentes ao busto, sem se deslocar durante os movimentos."
+    },
+    {
+      "question": "Ele é indicado para bustos grandes?",
+      "answer": "Sim! O bojo reforçado e o tecido Suplex com compressão leve oferecem excelente sustentação para bustos grandes, com alças largas que distribuem o peso de forma equilibrada."
+    },
+    {
+      "question": "Qual é a composição do tecido Suplex?",
+      "answer": "O Suplex é um tecido de alta performance composto por poliamida e elastano, que oferece elasticidade, firmeza, toque macio, secagem rápida e tecnologia anti-transparência."
+    },
+    {
+      "question": "Quais tamanhos estão disponíveis?",
+      "answer": "O top está disponível nos tamanhos G1, G2 e G3. Consulte a tabela de medidas no anúncio para escolher o tamanho ideal com base na medida do busto."
+    },
+    {
+      "question": "Posso usar este top para corrida e crossfit?",
+      "answer": "Sim! O bojo reforçado, a compressão leve e o tecido respirável tornam o top perfeito para corrida, crossfit, musculação, pilates, ioga e qualquer atividade de médio a alto impacto."
+    },
+    {
+      "question": "O tecido é transparente?",
+      "answer": "Não! O tecido Suplex tem tecnologia anti-transparência, garantindo total confiança durante os treinos e no dia a dia."
+    },
+    {
+      "question": "Como lavar o top para não estragar o bojo?",
+      "answer": "Lave do avesso em água fria ou morna (máx. 30°C) com sabão neutro. Não use amaciante, não torça e não use secadora – pendure à sombra para secar. O bojo mantém a forma com esses cuidados."
+    },
+    {
+      "question": "O top desbota ou perde a forma com o tempo?",
+      "answer": "Não, se você seguir as instruções de lavagem. O Suplex tem alta resistência a desgastes e o tingimento é de qualidade, garantindo que o top mantenha a cor, a elasticidade e a modelagem mesmo com uso frequente."
+    }
+  ]
+},
+{
+  "id": "65",
+  "name": "Kit 2 Top Fitness Plus Size G1 G2 G3 Sem Bojo Academia",
+  "slug": "kit-2-top-fitness-plus-size-g1-g2-g3-sem-bojo-academia",
+  "category": "linha-fitness-feminina",
+  "categoryName": "Tops",
+  "affiliateLink": "https://meli.la/2a3xyRS",
+  "image": "/images/produtos/kit-2-top-fitness-plus-size-g1-g2-g3-sem-bojo-academia.webp",
+  "badge": "Novo",
+  "sold": "+1000 vendidos",
+  "rating": 4.6,
+  "reviews": 651,
+  "shortDescription": "Kit com 2 tops fitness plus size sem bojo, confeccionado em poliéster com elastano. Alças largas, faixa inferior reforçada e decote valorizador. Ideal para academia, pilates e uso diário.",
+  "description": "Com mais de 1000 unidades vendidas e 651 avaliações com nota 4,6, o Kit 2 Top Fitness Plus Size é a escolha certa para quem busca conforto, sustentação e estilo em uma única peça. Desenvolvido especialmente para bustos pequenos, médios e grandes, este top foi confeccionado em poliéster com elastano – um tecido durável, macio, de toque sedoso e alta elasticidade que se adapta perfeitamente ao corpo sem apertar. O modelo sem bojo oferece liberdade total de movimento, enquanto a faixa larga abaixo do seio garante sustentação reforçada durante atividades de alto impacto. As alças largas distribuem o peso do busto de forma equilibrada, evitando marcas e desconforto nos ombros. O decote valoriza o colo e confere um toque feminino e moderno ao visual. O kit vem com 2 unidades na cor preta – a mais versátil e curinga do guarda-roupa – permitindo que você alterne entre elas ao longo da semana. Disponível nos tamanhos G1 (busto 72 cm), G2 (busto 78 cm) e G3 (busto 80 cm), o top é ideal para academia, musculação, corrida, pilates, ioga, dança e até para compor looks casuais no dia a dia. Produto 100% original com nota fiscal, enviado em até 24 horas úteis. A Conceitual Modas está no mercado desde 2012, oferecendo qualidade e preço justo para que você não precise sair de casa para se sentir bem.",
+  "benefits": [
+    "Kit com 2 tops – mais praticidade e economia no seu dia a dia",
+    "Tecido em poliéster com elastano – macio, sedoso e com alta elasticidade",
+    "Sem bojo – liberdade de movimento e conforto natural",
+    "Faixa larga abaixo do seio – sustentação reforçada para atividades físicas",
+    "Alças largas – distribuem o peso do busto sem marcar os ombros",
+    "Decote valorizador – realça o colo com elegância",
+    "Perfeito para bustos pequenos, médios e grandes – versatilidade para todos os biotipos",
+    "Ideal para academia, corrida, pilates, ioga e uso diário",
+    "Cor preta – combina com tudo e nunca sai de moda",
+    "Mais de 1000 vendidos e nota 4,6 – qualidade reconhecida por quem compra"
+  ],
+  "howToUse": "Vista o top puxando pela barra inferior, ajustando as alças nos ombros para um encaixe confortável. A faixa abaixo do seio deve ficar bem apoiada para garantir a sustentação ideal. Para a lavagem: lave do avesso em água fria ou morna (máximo 30°C) com sabão neutro. Não use amaciante – ele prejudica a elasticidade do elastano. Não torça e não use secadora – pendure à sombra para preservar as fibras e a modelagem. O tecido de secagem rápida permite que o top esteja pronto para uso em poucas horas. Consulte a tabela de medidas (busto) para escolher o tamanho ideal – G1 (72 cm), G2 (78 cm) ou G3 (80 cm).",
+  "ingredients": "Composição: Poliéster com Elastano. Tecido de alta elasticidade, toque sedoso, macio e durável. Produto têxtil, dispensado de registro sanitário. Modelo: Top Fitness Plus Size Sem Bojo.",
+  "whoShouldUse": "Indicado para mulheres de todos os biotipos que buscam um top confortável e com boa sustentação para atividades físicas – academia, musculação, corrida, pilates, ioga e dança. Perfeito também para o uso diário, compondo looks casuais e esportivos. Especialmente recomendado para quem tem busto grande, pois as alças largas e a faixa inferior reforçada oferecem suporte sem sacrificar o conforto. Não há restrições específicas, mas recomenda-se escolher o tamanho adequado com base na medida do busto.",
+  "faq": [
+    {
+      "question": "Este top tem bojo?",
+      "answer": "Não, ele é sem bojo. A sustentação vem da faixa larga abaixo do seio e das alças largas, que distribuem o peso do busto de forma equilibrada – proporcionando conforto e liberdade de movimento."
+    },
+    {
+      "question": "Ele é adequado para bustos grandes?",
+      "answer": "Sim! Ele foi desenvolvido para bustos pequenos, médios e grandes. As alças largas e a faixa inferior reforçada garantem sustentação e conforto mesmo para quem tem busto grande."
+    },
+    {
+      "question": "Qual é a composição do tecido?",
+      "answer": "O top é confeccionado em poliéster com elastano – um tecido macio, com toque sedoso, alta elasticidade e excelente durabilidade. É leve, respirável e de secagem rápida."
+    },
+    {
+      "question": "Quais tamanhos estão disponíveis?",
+      "answer": "O kit está disponível nos tamanhos G1 (busto 72 cm), G2 (busto 78 cm) e G3 (busto 80 cm). Consulte a tabela de medidas e escolha o que melhor se adapta ao seu biotipo."
+    },
+    {
+      "question": "Como devo lavar o top para não estragar?",
+      "answer": "Lave do avesso em água fria ou morna (máx. 30°C) com sabão neutro. Nunca use amaciante – ele prejudica a elasticidade do elastano. Não torça, não use secadora e pendure à sombra para secar."
+    },
+    {
+      "question": "O top desbota ou perde a forma com o tempo?",
+      "answer": "Não, se você seguir as instruções de lavagem. O poliéster com elastano tem alta resistência a desgastes e o tingimento é de qualidade, garantindo que a peça mantenha a cor e a forma mesmo com uso frequente."
+    },
+    {
+      "question": "Posso usar este top no dia a dia, fora da academia?",
+      "answer": "Com certeza! O design sem bojo, o decote valorizador e o tecido macio tornam o top superversátil. Ele combina perfeitamente com shorts, saias, calças e jaquetas para um look casual e estiloso."
+    },
+    {
+      "question": "O kit vem com 2 tops da mesma cor?",
+      "answer": "Sim, o kit vem com 2 tops na cor preta – a mais versátil e prática para o dia a dia, combinando com qualquer look e atividade."
+    }
+  ]
+},
+{
+  "id": "66",
+  "name": "Conjunto Fitness Virginia Top Shorts Meia Coxa Cintura Alta",
+  "slug": "conjunto-fitness-virginia-top-shorts-meia-coxa-cintura-alta",
+  "category": "linha-fitness-feminina",
+  "categoryName": "Conjuntos",
+  "affiliateLink": "https://meli.la/1QkZW8K",
+  "image": "/images/produtos/conjunto-fitness-virginia-top-shorts-meia-coxa-cintura-alta.webp",
+  "badge": "Mais Vendido",
+  "sold": "+100 mil vendidos",
+  "rating": 4.4,
+  "reviews": 33161,
+  "shortDescription": "Conjunto fitness Virginia com top e shorts meia coxa de cintura alta. Tecido Suplex leve e respirável, ideal para academia, corrida e uso diário. 1º em Conjuntos no Mercado Livre.",
+  "description": "Com mais de 100 mil unidades vendidas e mais de 33 mil avaliações com nota 4,4, o Conjunto Fitness Virginia da marca Use Yas Fitness é líder absoluto na categoria Conjuntos — e não é por acaso. Composto por top e shorts meia coxa com cintura alta, este conjunto foi desenvolvido para mulheres que não abrem mão de conforto, estilo e desempenho nos treinos. O tecido Suplex (composição típica de poliamida e elastano) é leve, respirável e de secagem rápida, proporcionando uma sensação agradável mesmo nas sessões mais intensas. O top tem modelagem anatômica que se ajusta ao corpo sem apertar, com alças reguláveis e sustentação moderada. Já o shorts meia coxa com cintura alta oferece cobertura e segurança nos movimentos, com faixa de sustentação que modela a silhueta e não enrola durante os exercícios. O comprimento meia coxa é superversátil — protege as pernas sem restringir a amplitude, sendo ideal para agachamentos, afundos e corridas. O design moderno e elegante, com corte que valoriza as curvas, permite que você se sinta confiante e estilosa tanto na academia quanto no dia a dia. 1º lugar em Conjuntos no Mercado Livre, com frete grátis acima de R$ 19 e devolução em até 30 dias. Se você busca um conjunto que una funcionalidade e estética, o Virginia é a escolha certa.",
+  "benefits": [
+    "Kit completo com top + shorts meia coxa — praticidade e estilo em um só conjunto",
+    "Tecido Suplex leve e respirável — conforto térmico e secagem rápida",
+    "Shorts com cintura alta — sustentação e modelagem da silhueta",
+    "Comprimento meia coxa — liberdade de movimento sem restringir",
+    "Top com modelagem anatômica e alças reguláveis — ajuste perfeito",
+    "Ideal para musculação, corrida, crossfit, dança e pilates",
+    "Design moderno e elegante — valoriza as curvas e transmite confiança",
+    "Tecido resistente e durável — mantém a forma e a cor mesmo com uso frequente",
+    "1º em Conjuntos no Mercado Livre — mais de 100 mil vendidos",
+    "Frete grátis e devolução em até 30 dias — compre sem risco"
+  ],
+  "howToUse": "Vista o top ajustando as alças para um encaixe confortável. O shorts deve ser puxado pela cintura alta, ajustando a faixa abdominal para um suporte firme. Para a lavagem: lave as peças do avesso em água fria ou morna (máximo 30°C) com sabão neutro. Não use amaciante — ele prejudica a elasticidade do elastano. Não torça e não use secadora — pendure à sombra para preservar as fibras e a modelagem. O tecido Suplex seca rapidamente, ficando pronto para uso em poucas horas. Consulte a tabela de medidas (busto, cintura e quadril) para escolher o tamanho ideal.",
+  "ingredients": "Composição típica do tecido Suplex: Poliamida e Elastano (proporção aproximada de 90% poliamida / 10% elastano). Tecido de alta performance, leve, respirável, de secagem rápida e toque macio. Produto têxtil, dispensado de registro sanitário. Modelo: Virginia — Top + Shorts Meia Coxa Cintura Alta.",
+  "whoShouldUse": "Indicado para mulheres de todas as idades que praticam atividades físicas — musculação, corrida, crossfit, dança, pilates e ioga. Perfeito também para uso diário (look casual esportivo) devido ao design moderno e ao conforto do tecido. Recomendado para quem busca um conjunto com boa sustentação, liberdade de movimento e um caimento que valoriza a silhueta. Não há restrições específicas, mas recomenda-se escolher o tamanho adequado com base nas medidas corporais.",
+  "faq": [
+    {
+      "question": "O conjunto é composto por quais peças?",
+      "answer": "O kit inclui um top e um shorts meia coxa com cintura alta — duas peças que formam um conjunto completo para academia e uso diário."
+    },
+    {
+      "question": "Qual é a composição do tecido Suplex?",
+      "answer": "O Suplex é um tecido de alta performance, geralmente composto por poliamida e elastano. É leve, respirável, de secagem rápida e oferece excelente elasticidade e durabilidade."
+    },
+    {
+      "question": "O shorts tem cintura alta? Ela é modeladora?",
+      "answer": "Sim! O shorts tem cintura alta com faixa de sustentação que abraça o abdômen, modela a silhueta e não enrola durante os exercícios, oferecendo segurança e conforto."
+    },
+    {
+      "question": "Qual é o comprimento do shorts?",
+      "answer": "O shorts é modelo meia coxa — um comprimento intermediário que protege as pernas e permite total liberdade de movimento para agachamentos, afundos e corridas."
+    },
+    {
+      "question": "O top tem bojo? As alças são reguláveis?",
+      "answer": "O top tem modelagem anatômica sem bojo, com alças reguláveis que permitem ajustar a sustentação de acordo com a preferência e o tipo de atividade."
+    },
+    {
+      "question": "Posso usar esse conjunto para corrida e crossfit?",
+      "answer": "Sim! O tecido respirável e a modelagem com cintura alta e shorts meia coxa são perfeitos para corrida, crossfit, musculação, dança e qualquer atividade de médio a alto impacto."
+    },
+    {
+      "question": "Como lavar o conjunto para não estragar?",
+      "answer": "Lave do avesso em água fria ou morna (máx. 30°C) com sabão neutro. Não use amaciante, não torça e não use secadora — pendure à sombra para secar. O tecido Suplex seca rapidamente."
+    },
+    {
+      "question": "O conjunto desbota ou perde a forma com o tempo?",
+      "answer": "Não, se você seguir as instruções de lavagem. O Suplex tem alta resistência a desgastes e o tingimento é de qualidade, garantindo que as peças mantenham a cor, a elasticidade e a modelagem mesmo com uso frequente."
+    }
+  ]
+},
 ]
 
 // ============================================================
@@ -2688,7 +3053,7 @@ export const heroBanners = [
     subtitle: "Energia, foco e resistência para ir além dos seus limites",
     cta: "Ver Pré-Treinos",
     link: "/categoria/pre-treino",
-    image: "/images/banners/banner-teste.png", // 🖼️ Substitua pela sua imagem
+    image: "/images/banners/copa-do-mundo.webp", // 🖼️ Substitua pela sua imagem
     bgColor: "from-red-600 via-orange-500 to-yellow-500",
   },
   {
@@ -2719,17 +3084,17 @@ export const doubleBanners = [
   {
     id: 1,
     title: "Linha Fitness Feminina",
-    subtitle: "Suplementos selecionados para mulheres",
+    subtitle: "Roupas e acessórios fitness para mulheres",
     cta: "Ver produtos",
-    link: "/categoria/colageno",
+    link: "/categoria/linha-fitness-feminina",
     image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&q=80",
   },
   {
     id: 2,
-    title: "Kits e Combos Promocionais",
-    subtitle: "Compre mais e economize mais",
-    cta: "Ver combos",
-    link: "/categoria/whey-protein",
+    title: "Kits e Combos",
+    subtitle: "Tapetes, elásticos e equipamentos para treinar em casa",
+    cta: "Ver produtos",
+    link: "/categoria/kits-e-combos",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
   },
 ]
