@@ -5,13 +5,22 @@ import { Footer } from '@/components/store/footer'
 import { ProductCarousel } from '@/components/store/product-carousel'
 import { BlogCard } from '@/components/store/blog-card'
 import { getBlogPostBySlug, getRelatedPosts, blogPosts } from '@/lib/blog-data'
-import { products } from '@/lib/store-data'
+import { products, getProductsByCategory } from '@/lib/store-data'
 import { Calendar, Clock, ChevronRight, User } from 'lucide-react'
 
 export default function BlogPostPageClient({ slug }: { slug: string }) {
   const post = getBlogPostBySlug(slug) || blogPosts[0]
   const relatedPosts = getRelatedPosts(post, 3)
-  const relatedProducts = products.filter(p => p.category === 'whey-protein').slice(0, 5)
+
+  // Usa a categoria do post para buscar produtos relacionados.
+  // Se o post tiver um campo productCategory, usa ele.
+  // Caso contrário, tenta usar o slug da categoria do post.
+  // Se não encontrar nenhum produto, cai no fallback de creatina.
+  const categorySlug = (post as any).productCategory ?? post.category ?? 'creatina'
+  const categoryProducts = getProductsByCategory(categorySlug)
+  const relatedProducts = categoryProducts.length > 0
+    ? categoryProducts.slice(0, 5)
+    : getProductsByCategory('creatina').slice(0, 5)
 
   return (
     <>
