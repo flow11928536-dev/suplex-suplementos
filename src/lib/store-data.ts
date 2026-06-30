@@ -13,8 +13,8 @@ export interface Product {
   slug: string
   category: string
   categoryName: string
-  affiliateLink: string // 🔗 LINK DE AFILIADO - Substitua pelo seu link do Mercado Livre
-  image: string // 🖼️ IMAGEM DO PRODUTO - Substitua pela URL da imagem
+  affiliateLink: string
+  image: string
   badge?: string
   sold?: string
   rating: number
@@ -26,6 +26,12 @@ export interface Product {
   ingredients?: string
   whoShouldUse?: string
   faq?: { question: string; answer: string }[]
+  // Campos SEO opcionais
+  seoTitle?: string
+  seoDescription?: string
+  keywords?: string[]
+  canonicalUrl?: string
+  alt?: string
 }
 
 export interface Category {
@@ -3190,4 +3196,45 @@ export function getRelatedProducts(product: Product, limit: number = 6): Product
   return products
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, limit)
+}
+
+// ============================================================
+// FUNÇÃO PARA GERAR JSON-LD DE PRODUTO (PARA SEO)
+// ============================================================
+export function generateProductJsonLd(product: Product, baseUrl: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: product.image,
+    description: product.shortDescription || product.description,
+    brand: {
+      "@type": "Brand",
+      name: product.categoryName,
+    },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "BRL",
+      availability: "https://schema.org/InStock",
+      url: product.affiliateLink,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: product.rating,
+      reviewCount: product.reviews,
+    },
+    ...(product.faq && {
+      mainEntity: {
+        "@type": "FAQPage",
+        mainEntity: product.faq.map(f => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: f.answer,
+          },
+        })),
+      },
+    }),
+  };
 }

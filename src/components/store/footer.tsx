@@ -3,6 +3,10 @@
 import { Mail, Clock, ShieldCheck, CreditCard, Smartphone } from 'lucide-react'
 import { categories, siteConfig } from '@/lib/store-data'
 
+// Fallback para evitar erros se categories ou siteConfig não estiverem definidos
+const safeCategories = categories || []
+const safeSiteConfig = siteConfig || { description: '', email: '' }
+
 const footerSections = [
   {
     title: 'Institucional',
@@ -17,7 +21,7 @@ const footerSections = [
   },
   {
     title: 'Categorias',
-    links: categories.slice(0, 6).map(c => ({ name: c.name, href: `/categoria/${c.slug}` })),
+    links: safeCategories.slice(0, 6).map(c => ({ name: c.name, href: `/categoria/${c.slug}` })),
   },
   {
     title: 'Blog',
@@ -59,7 +63,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-4 max-w-xs">
-              {siteConfig.description}
+              {safeSiteConfig.description || 'Guia completo de suplementos alimentares no Brasil.'}
             </p>
           </div>
 
@@ -84,7 +88,7 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-8 border-t border-gray-800">
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-sky-400 shrink-0" />
-            <span className="text-xs">{siteConfig.email}</span>
+            <span className="text-xs">{safeSiteConfig.email || 'contato@suplexsuplementos.com.br'}</span>
           </div>
           <div className="flex items-center gap-2">
             <Clock className="w-4 h-4 text-sky-400 shrink-0" />
@@ -111,11 +115,23 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Copyright + affiliate disclosure */}
+      {/* Copyright + affiliate disclosure + LLM links */}
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-4">
           <p className="text-center text-xs text-gray-500 mb-2">
             © 2026 Suplex Suplementos - Todos os direitos reservados.
+            <span className="mx-2">·</span>
+            <a href="/llms.txt" className="hover:text-sky-400" target="_blank" rel="noopener noreferrer">
+              llms.txt
+            </a>
+            <span className="mx-1">·</span>
+            <a href="/llms-full.txt" className="hover:text-sky-400" target="_blank" rel="noopener noreferrer">
+              llms-full.txt
+            </a>
+            <span className="mx-1">·</span>
+            <a href="/llms-index.json" className="hover:text-sky-400" target="_blank" rel="noopener noreferrer">
+              llms-index.json
+            </a>
           </p>
           <p className="text-center text-[10px] text-gray-600">
             Aviso de Afiliados: Este site contém links de afiliados. Podemos receber uma comissão por compras realizadas através dos nossos links, sem custo adicional para você.

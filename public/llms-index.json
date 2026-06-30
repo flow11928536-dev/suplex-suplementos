@@ -1,0 +1,699 @@
+{
+  "site": {
+    "name": "Suplex Suplementos",
+    "url": "https://suplexsuplementos.com.br",
+    "description": "Guia completo de suplementos alimentares no Brasil. Reviews, comparações e melhores preços de whey protein, creatina, pré-treino e muito mais.",
+    "lastUpdated": "2026-06-30T20:54:55.866Z"
+  },
+  "categories": [
+    {
+      "slug": "whey-protein",
+      "name": "Whey Protein",
+      "url": "https://suplexsuplementos.com.br/categoria/whey-protein",
+      "description": "Proteínas para ganho de massa muscular"
+    },
+    {
+      "slug": "creatina",
+      "name": "Creatina",
+      "url": "https://suplexsuplementos.com.br/categoria/creatina",
+      "description": "Força, potência e performance"
+    },
+    {
+      "slug": "pre-treino",
+      "name": "Pré-Treino",
+      "url": "https://suplexsuplementos.com.br/categoria/pre-treino",
+      "description": "Energia e foco para treinos intensos"
+    },
+    {
+      "slug": "aminoacidos",
+      "name": "Aminoácidos",
+      "url": "https://suplexsuplementos.com.br/categoria/aminoacidos",
+      "description": "BCAA, Glutamina e EAA"
+    },
+    {
+      "slug": "hipercaloricos",
+      "name": "Hipercalóricos",
+      "url": "https://suplexsuplementos.com.br/categoria/hipercaloricos",
+      "description": "Ganho de peso e massa"
+    },
+    {
+      "slug": "vitaminas-e-minerais",
+      "name": "Vitaminas e Minerais",
+      "url": "https://suplexsuplementos.com.br/categoria/vitaminas-e-minerais",
+      "description": "Multivitamínicos e suplementos essenciais"
+    },
+    {
+      "slug": "emagrecimento",
+      "name": "Emagrecimento",
+      "url": "https://suplexsuplementos.com.br/categoria/emagrecimento",
+      "description": "Termogênicos e queimadores de gordura"
+    },
+    {
+      "slug": "colageno",
+      "name": "Colágeno",
+      "url": "https://suplexsuplementos.com.br/categoria/colageno",
+      "description": "Pele, cabelo, unhas e articulações"
+    },
+    {
+      "slug": "snacks-e-barras",
+      "name": "Snacks e Barras",
+      "url": "https://suplexsuplementos.com.br/categoria/snacks-e-barras",
+      "description": "Proteínas práticas para o dia a dia"
+    },
+    {
+      "slug": "acessorios",
+      "name": "Acessórios",
+      "url": "https://suplexsuplementos.com.br/categoria/acessorios",
+      "description": "Coqueteleiras, shakers e muito mais"
+    },
+    {
+      "slug": "linha-fitness-feminina",
+      "name": "Linha Fitness Feminina",
+      "url": "https://suplexsuplementos.com.br/categoria/linha-fitness-feminina",
+      "description": "Roupas e acessórios fitness para mulheres"
+    },
+    {
+      "slug": "kits-e-combos",
+      "name": "Kits e Combos",
+      "url": "https://suplexsuplementos.com.br/categoria/kits-e-combos",
+      "description": "Tapetes, equipamentos e acessórios de ginástica"
+    }
+  ],
+  "products": [
+    {
+      "slug": "w100-whey-concentrado-900g-cookies-cream-nutrata",
+      "name": "W100 Whey Concentrado Pouch 900g Cookies & Cream Nutrata",
+      "url": "https://suplexsuplementos.com.br/produto/w100-whey-concentrado-900g-cookies-cream-nutrata",
+      "category": "Whey Protein",
+      "rating": 4.8,
+      "reviews": 7323,
+      "shortDescription": "Whey Concentrado 100% WPC com 20g de proteína por dose, Low Carb, baixo teor de sódio e livre de acessulfame K e aspartame."
+    },
+    {
+      "slug": "whey-protein-concentrado-1kg-chocolate-belga-soldiers-nutrition",
+      "name": "Whey Protein Concentrado 1kg Chocolate Belga Soldiers Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/whey-protein-concentrado-1kg-chocolate-belga-soldiers-nutrition",
+      "category": "Whey Protein",
+      "rating": 4.8,
+      "reviews": 28049,
+      "shortDescription": "Whey Concentrado 100% importado com matéria-prima de alta qualidade, rico em proteínas e aminoácidos essenciais para hipertrofia."
+    },
+    {
+      "slug": "whey-protein-ultra-refil-900g-baunilha-ftw",
+      "name": "Whey Protein Ultra Refil 900g Baunilha FTW",
+      "url": "https://suplexsuplementos.com.br/produto/whey-protein-ultra-refil-900g-baunilha-ftw",
+      "category": "Whey Protein",
+      "rating": 4.8,
+      "reviews": 28877,
+      "shortDescription": "Whey Concentrado com 15g de proteína e 7,6g de EAAs por dose, sabor Baunilha. Mais de 10 mil vendidos."
+    },
+    {
+      "slug": "whey-concentrado-w100-900g-double-chocolate-nutrata",
+      "name": "Whey Concentrado W100 900g Double Chocolate Nutrata",
+      "url": "https://suplexsuplementos.com.br/produto/whey-concentrado-w100-900g-double-chocolate-nutrata",
+      "category": "Whey Protein",
+      "rating": 4.9,
+      "reviews": 1999,
+      "shortDescription": "Whey Concentrado 100% WPC com 20g de proteína por dose, Low Carb, livre de acessulfame K e aspartame. Sabor Double Chocolate."
+    },
+    {
+      "slug": "pre-treino-evolution-workout-300g-limonada-suica-soldiers-nutrition",
+      "name": "Pré-Treino Evolution Workout 300g Limonada Suíça Soldiers Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-evolution-workout-300g-limonada-suica-soldiers-nutrition",
+      "category": "Pré-Treino",
+      "rating": 4.7,
+      "reviews": 31127,
+      "shortDescription": "Pré-treino termogênico com cafeína, beta-alanina, taurina e vitaminas. Mais de 50 mil vendidos. Sabor Limonada Suíça."
+    },
+    {
+      "slug": "testo-essencial-para-mulheres-60-capsulas-essencial-labs",
+      "name": "Testo Essencial para Mulheres 60 Cápsulas Essencial Labs",
+      "url": "https://suplexsuplementos.com.br/produto/testo-essencial-para-mulheres-60-capsulas-essencial-labs",
+      "category": "Aminoácidos",
+      "rating": 5,
+      "reviews": 60,
+      "shortDescription": "Suplemento feminino com Feno Grego, Boro, Arginina, ZMA e Vitaminas B6, B12 e Biotina para energia, vitalidade e performance."
+    },
+    {
+      "slug": "glutamina-100-pura-300g-g7-legacy",
+      "name": "Glutamina 100% Pura 300g G7 Legacy",
+      "url": "https://suplexsuplementos.com.br/produto/glutamina-100-pura-300g-g7-legacy",
+      "category": "Aminoácidos",
+      "rating": 4.8,
+      "reviews": 284,
+      "shortDescription": "Glutamina micronizada 100% pura, sem aditivos, para recuperação muscular, imunidade e saúde intestinal."
+    },
+    {
+      "slug": "hipercalorico-anabolic-mass-28500-3kg-chocolate-profit",
+      "name": "Hipercalórico Anabolic Mass 28500 3kg Chocolate ProFit",
+      "url": "https://suplexsuplementos.com.br/produto/hipercalorico-anabolic-mass-28500-3kg-chocolate-profit",
+      "category": "Hipercalóricos",
+      "rating": 4.8,
+      "reviews": 51939,
+      "shortDescription": "Hipercalórico com 32g de proteína, 25 vitaminas e minerais e 3g de creatina por dose. Ideal para ganho de massa e peso. 3kg."
+    },
+    {
+      "slug": "kit-2x-colageno-acido-hialuronico-verisol-216g-cranberry-renova-be",
+      "name": "Kit 2x Colágeno + Ácido Hialurônico Verisol 216g Cranberry Renova Be",
+      "url": "https://suplexsuplementos.com.br/produto/kit-2x-colageno-acido-hialuronico-verisol-216g-cranberry-renova-be",
+      "category": "Colágeno",
+      "rating": 4.9,
+      "reviews": 3742,
+      "shortDescription": "Kit com 2 potes de Colágeno Verisol + Ácido Hialurônico, Vitaminas E, C, B6, Biotina e Zinco. Zero lactose, zero glúten. Sabor Cranberry."
+    },
+    {
+      "slug": "multivitaminico-azcaps-120-capsulas-bionutri",
+      "name": "Multivitamínico AZCaps 120 Cápsulas Bionutri",
+      "url": "https://suplexsuplementos.com.br/produto/multivitaminico-azcaps-120-capsulas-bionutri",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.8,
+      "reviews": 284,
+      "shortDescription": "Multivitamínico completo de A a Z com 120 cápsulas de 500mg. Vitaminas, minerais, zero glúten e zero lactose. 60 dias de suplementação."
+    },
+    {
+      "slug": "vitergan-master-n-70-comprimidos-vitaminas-minerais-marjan",
+      "name": "Vitergan Master-N 70 Comprimidos Vitaminas e Minerais Marjan",
+      "url": "https://suplexsuplementos.com.br/produto/vitergan-master-n-70-comprimidos-vitaminas-minerais-marjan",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.9,
+      "reviews": 253,
+      "shortDescription": "Suplemento com aminoácidos, cafeína, vitaminas C e B6, magnésio e ferro em comprimidos. Auxilia no metabolismo energético e funcionamento muscular."
+    },
+    {
+      "slug": "thermo-flame-black-skull-120-tabletes",
+      "name": "Thermo Flame Black Skull 120 Tabletes",
+      "url": "https://suplexsuplementos.com.br/produto/thermo-flame-black-skull-120-tabletes",
+      "category": "Emagrecimento",
+      "rating": 4.8,
+      "reviews": 19146,
+      "shortDescription": "Termogênico hardcore com 360mg de cafeína por dose para máximo foco e energia nos treinos."
+    },
+    {
+      "slug": "bold-barra-proteina-caixa-mista-12-unidades",
+      "name": "Bold Barra de Proteína Caixa Mista 12 Unidades",
+      "url": "https://suplexsuplementos.com.br/produto/bold-barra-proteina-caixa-mista-12-unidades",
+      "category": "Snacks e Barras",
+      "rating": 4.9,
+      "reviews": 2189,
+      "shortDescription": "Caixa mista com 12 barras Bold de 60g e 21g de proteína cada — 6 sabores diferentes para nunca enjoar."
+    },
+    {
+      "slug": "tasty-whey-3w-gourmet-900g-original-adaptogen-science",
+      "name": "Tasty Whey 3W Gourmet 900g Original Adaptogen Science",
+      "url": "https://suplexsuplementos.com.br/produto/tasty-whey-3w-gourmet-900g-original-adaptogen-science",
+      "category": "Whey Protein",
+      "rating": 4.9,
+      "reviews": 73048,
+      "shortDescription": "Whey 3W Gourmet com 24g de proteína por dose, alta solubilidade e menos sódio. Mais de 100 mil vendidos. Sabor Original."
+    },
+    {
+      "slug": "prodiet-trophic-basic-baunilha-800g",
+      "name": "Prodiet Trophic Basic Sabor Baunilha 800g",
+      "url": "https://suplexsuplementos.com.br/produto/prodiet-trophic-basic-baunilha-800g",
+      "category": "Suplementos Nutricionais",
+      "rating": 4.9,
+      "reviews": 361,
+      "shortDescription": "Suplemento nutricional em pó sabor baunilha para complementar a alimentação diária com vitaminas, minerais e proteínas."
+    },
+    {
+      "slug": "zma-testo-booster-60-capsulas-integralmedica",
+      "name": "ZMA Testo Booster 60 Cápsulas Integralmedica",
+      "url": "https://suplexsuplementos.com.br/produto/zma-testo-booster-60-capsulas-integralmedica",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.8,
+      "reviews": 9527,
+      "shortDescription": "ZMA com Zinco, Magnésio e Vitamina B6 para recuperação muscular, equilíbrio hormonal e qualidade do sono."
+    },
+    {
+      "slug": "l-arginina-po-500g-pura-soldiers-nutrition",
+      "name": "L-Arginina em Pó 500g 100% Pura Soldiers Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/l-arginina-po-500g-pura-soldiers-nutrition",
+      "category": "Aminoácidos",
+      "rating": 4.7,
+      "reviews": 7586,
+      "shortDescription": "L-Arginina 100% pura em pó com 500g para bombeamento muscular, vasodilatação e recuperação acelerada."
+    },
+    {
+      "slug": "vitamina-c-1000mg-vitgold-100-comprimidos",
+      "name": "Vitamina C 1000mg Vitgold 100 Comprimidos",
+      "url": "https://suplexsuplementos.com.br/produto/vitamina-c-1000mg-vitgold-100-comprimidos",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.9,
+      "reviews": 187,
+      "shortDescription": "Vitamina C 1000mg em comprimidos para imunidade, colágeno e proteção antioxidante — 100 doses por pote."
+    },
+    {
+      "slug": "vitamina-d3-k2-menaquinona-7-essencial-labs-60-capsulas",
+      "name": "Vitamina D3 + K2 Menaquinona-7 Essencial Labs 60 Cápsulas",
+      "url": "https://suplexsuplementos.com.br/produto/vitamina-d3-k2-menaquinona-7-essencial-labs-60-capsulas",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.9,
+      "reviews": 3930,
+      "shortDescription": "D3 2000UI + K2 MK-7 149mcg em cápsula de máxima biodisponibilidade para ossos, imunidade e saúde cardiovascular."
+    },
+    {
+      "slug": "glucosamina-condroitina-msm-recover-30-doses",
+      "name": "Glucosamina 1500mg + Condroitina 1200mg + MSM 600mg Recover 30 Doses",
+      "url": "https://suplexsuplementos.com.br/produto/glucosamina-condroitina-msm-recover-30-doses",
+      "category": "Saúde Articular",
+      "rating": 4.4,
+      "reviews": 1007,
+      "shortDescription": "Trio completo para saúde articular: Glucosamina 1500mg + Condroitina 1200mg + MSM 600mg em 30 doses."
+    },
+    {
+      "slug": "creatina-monohidratada-250g-growth-supplements",
+      "name": "Creatina Monohidratada 250g Growth Supplements",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohidratada-250g-growth-supplements",
+      "category": "Creatina",
+      "rating": 4.9,
+      "reviews": 165739,
+      "shortDescription": "Creatina Monohidratada 100% pura sem aditivos, 5g por dose e sabor neutro. O suplemento mais vendido do Brasil."
+    },
+    {
+      "slug": "creatina-monohidratada-pura-500g-dark-lab",
+      "name": "Creatina Monohidratada Pura 500g Dark Lab",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohidratada-pura-500g-dark-lab",
+      "category": "Creatina",
+      "rating": 4.9,
+      "reviews": 621189,
+      "shortDescription": "Creatina 100% pura com pureza comprovada de até 100% em testes independentes. 500g, matéria-prima importada, 1º em Suplementos Dark Lab."
+    },
+    {
+      "slug": "creatina-monohidratada-100g-max-titanium-alta-pureza",
+      "name": "Creatina Monohidratada 100g Max Titanium Alta Pureza",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohidratada-100g-max-titanium-alta-pureza",
+      "category": "Creatina",
+      "rating": 4.8,
+      "reviews": 133214,
+      "shortDescription": "Creatina Monohidratada 100g Max Titanium com 5g por dose, alta pureza, 0% sódio e sem glúten. 2º em Cuidado da Saúde."
+    },
+    {
+      "slug": "creatina-creapure-250g-growth-supplements-selo-alemao",
+      "name": "Creatina Creapure 250g Growth Supplements Selo Alemão",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-creapure-250g-growth-supplements-selo-alemao",
+      "category": "Creatina",
+      "rating": 4.9,
+      "reviews": 20274,
+      "shortDescription": "Creatina Monohidratada com selo Creapure® de origem alemã — o padrão ouro de pureza em suplementação esportiva."
+    },
+    {
+      "slug": "creatina-creapure-120-comprimidos-growth-supplements",
+      "name": "Creatina Creapure 120 Comprimidos Growth Supplements",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-creapure-120-comprimidos-growth-supplements",
+      "category": "Creatina",
+      "rating": 4.8,
+      "reviews": 456,
+      "shortDescription": "Creatina Creapure em comprimidos — 120 unidades de 1450mg com pureza alemã certificada para força e massa muscular."
+    },
+    {
+      "slug": "kit-halteres-3-em-1-ajustavel-40kg-barras-anilhas-ahead-sports",
+      "name": "Kit Halteres 3 Em 1 Ajustável Até 40kg Barras e Anilhas Ahead Sports",
+      "url": "https://suplexsuplementos.com.br/produto/kit-halteres-3-em-1-ajustavel-40kg-barras-anilhas-ahead-sports",
+      "category": "Acessórios",
+      "rating": 4.7,
+      "reviews": 153,
+      "shortDescription": "Kit 3 em 1 com halteres ajustáveis, barras e anilhas até 40kg para treino completo em casa. Acompanha e-book."
+    },
+    {
+      "slug": "creatina-gummy-gominhas-60-unidades-amora-super-nutrition",
+      "name": "Creatina Gummy Gominhas 60 Unidades Amora Super Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-gummy-gominhas-60-unidades-amora-super-nutrition",
+      "category": "Creatina",
+      "rating": 4.8,
+      "reviews": 692,
+      "shortDescription": "Creatina Monohidratada em gominhas sabor amora com 3g por porção. Zero açúcar, zero glúten e zero lactose. 60 unidades."
+    },
+    {
+      "slug": "top-whey-3w-900g-iogurte-grego-morango-max-titanium",
+      "name": "Top Whey 3W 900g Iogurte Grego de Morango Max Titanium",
+      "url": "https://suplexsuplementos.com.br/produto/top-whey-3w-900g-iogurte-grego-morango-max-titanium",
+      "category": "Whey Protein",
+      "rating": 4.7,
+      "reviews": 895,
+      "shortDescription": "Whey 3W com WPC, WPI e WPH, 25g de proteína por dose, rico em BCAAs e vitaminas. Sabor Iogurte Grego de Morango. Zero glúten."
+    },
+    {
+      "slug": "pre-treino-horus-300g-frutas-vermelhas-max-titanium",
+      "name": "Pré-Treino Horus 300g Frutas Vermelhas Max Titanium",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-horus-300g-frutas-vermelhas-max-titanium",
+      "category": "Pré-Treino",
+      "rating": 4.8,
+      "reviews": 17765,
+      "shortDescription": "Pré-treino com 2g de Beta-Alanina, 150mg de Cafeína, 1g de Taurina e 1g de Arginina por dose. Mais de 50 mil vendidos. Sabor Frutas Vermelhas."
+    },
+    {
+      "slug": "pre-treino-panic-150g-limonada-com-creatina-adaptogen-science",
+      "name": "Pré-Treino Panic 150g Limonada com Creatina Adaptogen Science",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-panic-150g-limonada-com-creatina-adaptogen-science",
+      "category": "Pré-Treino",
+      "rating": 4.7,
+      "reviews": 4903,
+      "shortDescription": "Pré-treino com creatina adicionada, sabor Limonada reformulado. Mais de 10 mil vendidos. 150g de puro desempenho."
+    },
+    {
+      "slug": "pre-treino-dux-nutrition-300g-frutas-vermelhas",
+      "name": "Pré-Treino Dux Nutrition 300g Frutas Vermelhas",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-dux-nutrition-300g-frutas-vermelhas",
+      "category": "Pré-Treino",
+      "rating": 4.8,
+      "reviews": 4452,
+      "shortDescription": "Pré-treino com água de coco, Beta-Alanina, Cafeína, Guaraná, BCAAs e vitaminas do complexo B. Energia instantânea e prolongada. Sabor Frutas Vermelhas."
+    },
+    {
+      "slug": "pre-treino-bope-300g-limao-black-skull",
+      "name": "Pré-Treino B.O.P.E 300g Limão Black Skull",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-bope-300g-limao-black-skull",
+      "category": "Pré-Treino",
+      "rating": 4.9,
+      "reviews": 57,
+      "shortDescription": "Pré-treino Xtreme Energy Drink com energia, foco e resistência para treinos intensos. Sabor Limão. Zero glúten. 300g."
+    },
+    {
+      "slug": "pre-treino-prohibido-360g-strawberry-margarita-3vs-nutrition",
+      "name": "Pré-Treino Prohibido 360g Strawberry Margarita 3VS Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-prohibido-360g-strawberry-margarita-3vs-nutrition",
+      "category": "Pré-Treino",
+      "rating": 4.7,
+      "reviews": 37221,
+      "shortDescription": "Pré-treino Hardcore com 8 ingredientes ativos, creatina, palatinose e cafeína. Energia do início ao fim. Mais de 50 mil vendidos. 360g."
+    },
+    {
+      "slug": "pre-treino-haze-hardcore-300g-uva-growth-supplements",
+      "name": "Pré-Treino Haze Hardcore 300g Uva Growth Supplements",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-haze-hardcore-300g-uva-growth-supplements",
+      "category": "Pré-Treino",
+      "rating": 4.9,
+      "reviews": 6410,
+      "shortDescription": "Pré-treino Hardcore com 2g de Beta-Alanina, 150mg de Cafeína e Palatinose para energia sustentada. Zero glúten. Sabor Uva. 300g."
+    },
+    {
+      "slug": "pre-treino-venom-underground-300g-mango-loko-dark-lab",
+      "name": "Pré-Treino Venom Underground 300g Mango Loko Dark Lab",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-venom-underground-300g-mango-loko-dark-lab",
+      "category": "Pré-Treino",
+      "rating": 4.8,
+      "reviews": 22090,
+      "shortDescription": "Pré-treino Underground com 400mg de Cafeína, 2g de Beta-Alanina, Colostro Bovino e extrato de café verde. Zero glúten. Sabor Mango Loko."
+    },
+    {
+      "slug": "pre-treino-diabo-verde-300g-frutas-amarelas-ftw",
+      "name": "Pré-Treino Diabo Verde 300g Frutas Amarelas FTW",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-diabo-verde-300g-frutas-amarelas-ftw",
+      "category": "Pré-Treino",
+      "rating": 4.8,
+      "reviews": 68826,
+      "shortDescription": "Pré-treino Nova Fórmula com Beta-Alanina, Arginina, Tirosina, Cafeína microencapsulada e Palatinose. Zero glúten. 30 doses. Sabor Frutas Amarelas."
+    },
+    {
+      "slug": "pre-treino-diabo-verde-inferno-300g-tangerina-fire-ftw",
+      "name": "Pré-Treino Diabo Verde Inferno 300g Tangerina Fire FTW",
+      "url": "https://suplexsuplementos.com.br/produto/pre-treino-diabo-verde-inferno-300g-tangerina-fire-ftw",
+      "category": "Pré-Treino",
+      "rating": 4.8,
+      "reviews": 32,
+      "shortDescription": "Pré-treino Hardcore com 400mg de Cafeína, Beta-Alanina, Taurina e Tirosina. Energia explosiva e foco máximo. Sabor Tangerina Fire. 300g."
+    },
+    {
+      "slug": "whey-iso-protein-blend-complex-2kg-chocolate-xpro-nutrition",
+      "name": "Whey Iso Protein Blend Complex 2kg Chocolate XPro Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/whey-iso-protein-blend-complex-2kg-chocolate-xpro-nutrition",
+      "category": "Whey Protein",
+      "rating": 4.6,
+      "reviews": 13357,
+      "shortDescription": "Blend proteico com Whey Isolado, Soja Isolada e Soja Concentrada. 25g de proteína por dose, zero açúcar, zero glúten e zero lactose. 2kg."
+    },
+    {
+      "slug": "whey-iso-protein-blend-complex-2kg-chocolate-pretorian",
+      "name": "Whey Iso Protein Blend Complex 2kg Chocolate Pretorian",
+      "url": "https://suplexsuplementos.com.br/produto/whey-iso-protein-blend-complex-2kg-chocolate-pretorian",
+      "category": "Whey Protein",
+      "rating": 4.6,
+      "reviews": 4924,
+      "shortDescription": "Whey Isolado Blend Complex com 24g de proteína por dose, alta qualidade proteica e sabor Chocolate. 1º em Suplementos Pretorian. 2kg."
+    },
+    {
+      "slug": "whey-protein-fusion-isolate-1-8kg-chocolate-espartanos-nutrition",
+      "name": "Whey Protein Fusion Isolate 1,8kg Chocolate Espartanos Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/whey-protein-fusion-isolate-1-8kg-chocolate-espartanos-nutrition",
+      "category": "Whey Protein",
+      "rating": 4.5,
+      "reviews": 11418,
+      "shortDescription": "Blend de Whey Concentrado, Isolado, Albumina e Caseína com 26g de proteína e 5,4g de BCAAs por dose. Sabor Chocolate. 1,8kg."
+    },
+    {
+      "slug": "100-whey-protein-concentrado-900g-baunilha-max-titanium",
+      "name": "100% Whey Protein Concentrado 900g Baunilha Max Titanium",
+      "url": "https://suplexsuplementos.com.br/produto/100-whey-protein-concentrado-900g-baunilha-max-titanium",
+      "category": "Whey Protein",
+      "rating": 4.8,
+      "reviews": 58100,
+      "shortDescription": "Whey Concentrado 100% WPC com 21g de proteína e 4.669mg de BCAAs por dose. Gluten Free, matéria-prima de alta qualidade. Sabor Baunilha. 900g."
+    },
+    {
+      "slug": "creatina-hardcore-100-pura-300g-integralmedica",
+      "name": "Creatina Hardcore 100% Pura 300g Integralmedica",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-hardcore-100-pura-300g-integralmedica",
+      "category": "Creatina",
+      "rating": 4.8,
+      "reviews": 199214,
+      "shortDescription": "Creatina 100% Pura 300g com alta solubilidade, sem grumos e fórmula Hardcore para força, hipertrofia e recuperação."
+    },
+    {
+      "slug": "creatina-monohydrate-200g-universal-nutrition-coqueteleira",
+      "name": "Creatina Monohydrate 200g Universal Nutrition com Coqueteleira",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohydrate-200g-universal-nutrition-coqueteleira",
+      "category": "Creatina",
+      "rating": 4.9,
+      "reviews": 7236,
+      "shortDescription": "Creatina 100% pura 200g + coqueteleira Universal. Zero carboidratos, zero gorduras, glúten free e vegana."
+    },
+    {
+      "slug": "creatina-monohidratada-refil-500g-universal-nutrition",
+      "name": "Creatina Monohidratada Refil 500g Universal Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohidratada-refil-500g-universal-nutrition",
+      "category": "Creatina",
+      "rating": 4.9,
+      "reviews": 1147,
+      "shortDescription": "Creatina Monohidratada 100% pura 500g refil da Universal Nutrition. 3g por dose, sem glúten, sem lactose e fácil dissolução."
+    },
+    {
+      "slug": "creatina-monohydrate-100-pure-300g-atlhetica-nutrition",
+      "name": "Creatina Monohydrate 100% Pure 300g Atlhetica Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohydrate-100-pure-300g-atlhetica-nutrition",
+      "category": "Creatina",
+      "rating": 4.9,
+      "reviews": 9699,
+      "shortDescription": "Creatina Monoidratada 100% pura 300g com 3g por dose para força, explosão e recuperação muscular. Atlhetica Nutrition."
+    },
+    {
+      "slug": "pre-workout-insane-clown-350g-gummy-demons-lab",
+      "name": "Pré-Workout Insane Clown 350g Sabor Gummy Demons Lab",
+      "url": "https://suplexsuplementos.com.br/produto/pre-workout-insane-clown-350g-gummy-demons-lab",
+      "category": "Pré-Treino",
+      "rating": 4.8,
+      "reviews": 19924,
+      "shortDescription": "Pré-treino Insane Clown 350g sabor Gummy com aminoácidos em pó para energia, foco e performance máxima. Demons Lab."
+    },
+    {
+      "slug": "noherps-lisina-1000mg-vitamina-c-b6-zinco-90-comprimidos-unilife",
+      "name": "Noherps Lisina 1000mg Vitamina C B6 Zinco 90 Comprimidos Unilife",
+      "url": "https://suplexsuplementos.com.br/produto/noherps-lisina-1000mg-vitamina-c-b6-zinco-90-comprimidos-unilife",
+      "category": "Aminoácidos",
+      "rating": 4.7,
+      "reviews": 3763,
+      "shortDescription": "Lisina 1000mg com Vitamina C, B6, Zinco e Niacina em 90 comprimidos para imunidade, pele e suporte muscular. Unilife."
+    },
+    {
+      "slug": "bcaa-3-1-1-60-capsulas-dark-lab",
+      "name": "BCAA 3:1:1 60 Cápsulas Dark Lab",
+      "url": "https://suplexsuplementos.com.br/produto/bcaa-3-1-1-60-capsulas-dark-lab",
+      "category": "Aminoácidos",
+      "rating": 4.8,
+      "reviews": 1926,
+      "shortDescription": "BCAA 3:1:1 com Leucina, Isoleucina e Valina em 60 cápsulas para recuperação muscular, anticcatabolismo e hipertrofia. Dark Lab."
+    },
+    {
+      "slug": "bcaa-10-1-1-250g-frutas-vermelhas-3vs-nutrition",
+      "name": "BCAA 10:1:1 Em Pó 250g Sabor Frutas Vermelhas 3VS Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/bcaa-10-1-1-250g-frutas-vermelhas-3vs-nutrition",
+      "category": "Aminoácidos",
+      "rating": 4.7,
+      "reviews": 3399,
+      "shortDescription": "BCAA 10:1:1 em pó com 3900mg de aminoácidos por dose, sabor Frutas Vermelhas, 50 doses e zero açúcar. 3VS Nutrition."
+    },
+    {
+      "slug": "aminnu-aminoacidos-essenciais-30-saches-tangerina-central-nutrition",
+      "name": "Aminnu Aminoácidos Essenciais 30 Sachês Sabor Tangerina Central Nutrition",
+      "url": "https://suplexsuplementos.com.br/produto/aminnu-aminoacidos-essenciais-30-saches-tangerina-central-nutrition",
+      "category": "Aminoácidos",
+      "rating": 4.8,
+      "reviews": 3204,
+      "shortDescription": "Aminnu com aminoácidos essenciais em pó em 30 sachês sabor Tangerina para recuperação, resistência e manutenção muscular. Central Nutrition."
+    },
+    {
+      "slug": "l-carnosina-500mg-100-capsulas-vegetarianas-now-foods",
+      "name": "L-Carnosina 500mg 100 Cápsulas Vegetarianas Now Foods",
+      "url": "https://suplexsuplementos.com.br/produto/l-carnosina-500mg-100-capsulas-vegetarianas-now-foods",
+      "category": "Aminoácidos",
+      "rating": 4.9,
+      "reviews": 20,
+      "shortDescription": "L-Carnosina 500mg em 100 cápsulas vegetarianas para vitalidade muscular, proteção celular e envelhecimento saudável. Now Foods."
+    },
+    {
+      "slug": "zinco-carnosina-pepzin-gi-37-5mg-60-capsulas-swanson",
+      "name": "Zinco Carnosina PepZin GI 37,5mg 60 Cápsulas Swanson",
+      "url": "https://suplexsuplementos.com.br/produto/zinco-carnosina-pepzin-gi-37-5mg-60-capsulas-swanson",
+      "category": "Aminoácidos",
+      "rating": 4.9,
+      "reviews": 105,
+      "shortDescription": "Zinco Carnosina com PepZin GI 37,5mg em 60 cápsulas para saúde digestiva, proteção gástrica e equilíbrio intestinal. Swanson."
+    },
+    {
+      "slug": "hipercalorico-dark-mass-3kg-baunilha-dark-lab",
+      "name": "Hipercalórico Dark Mass 3kg Sabor Baunilha Dark Lab",
+      "url": "https://suplexsuplementos.com.br/produto/hipercalorico-dark-mass-3kg-baunilha-dark-lab",
+      "category": "Hipercalóricos",
+      "rating": 4.8,
+      "reviews": 36789,
+      "shortDescription": "Hipercalórico Dark Mass 3kg sabor Baunilha com Whey Protein, BCAA, Waxy Maize, Creatina e 25 vitaminas para ganho de massa. Dark Lab."
+    },
+    {
+      "slug": "hipercalorico-giant-mass-3kg-bodybuilders-chocolate",
+      "name": "Hipercalórico Giant Mass 3kg Bodybuilders Sabor Chocolate",
+      "url": "https://suplexsuplementos.com.br/produto/hipercalorico-giant-mass-3kg-bodybuilders-chocolate",
+      "category": "Hipercalóricos",
+      "rating": 4.6,
+      "reviews": 2742,
+      "shortDescription": "Hipercalórico Giant Mass 3kg da Bodybuilders com proteínas de alto valor biológico, vitaminas e minerais para ganho de massa magra e recuperação muscular."
+    },
+    {
+      "slug": "dimethylhex-60-capsulas-termogenico-under-labz",
+      "name": "Dimethylhex 60 Cápsulas Termogênico Under Labz - Queimador de Gordura e Energia",
+      "url": "https://suplexsuplementos.com.br/produto/dimethylhex-60-capsulas-termogenico-under-labz",
+      "category": "Emagrecimento",
+      "rating": 4.8,
+      "reviews": 12544,
+      "shortDescription": "Termogênico Dimethylhex 60 cápsulas da Under Labz com cafeína, guaraná, chá verde e L-carnitina para queima de gordura, energia e foco. 2º mais vendido em Suplementos Under Labz."
+    },
+    {
+      "slug": "pro-abdomen-60-capsulas-termogenico-profit-laboratorios",
+      "name": "Pro Abdomen 60 Cápsulas Termogênico Profit Laboratórios - 400mg Cafeína, Energia e Queima de Gordura",
+      "url": "https://suplexsuplementos.com.br/produto/pro-abdomen-60-capsulas-termogenico-profit-laboratorios",
+      "category": "Emagrecimento",
+      "rating": 4.6,
+      "reviews": 2794,
+      "shortDescription": "Termogênico Pro Abdomen 60 cápsulas da Profit Laboratórios com 400mg de cafeína por dose para queimar gordura, aumentar energia, foco e disposição nos treinos. 4º mais vendido em Suplementos Profit."
+    },
+    {
+      "slug": "vitamina-c-120-capsulas-growth-supplements-natural",
+      "name": "Vitamina C 120 Cápsulas Growth Supplements Natural",
+      "url": "https://suplexsuplementos.com.br/produto/vitamina-c-120-capsulas-growth-supplements-natural",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.9,
+      "reviews": 421,
+      "shortDescription": "Vitamina C 45mg em 120 cápsulas da Growth Supplements. Antioxidante natural, suporte imunológico, formação de colágeno e recuperação muscular. Sem glúten."
+    },
+    {
+      "slug": "omega-3-epa-dha-60-capsulas-dark-lab-1000mg",
+      "name": "Ômega 3 EPA DHA 60 Cápsulas Dark Lab 1000mg",
+      "url": "https://suplexsuplementos.com.br/produto/omega-3-epa-dha-60-capsulas-dark-lab-1000mg",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.9,
+      "reviews": 6210,
+      "shortDescription": "Ômega 3 EPA e DHA 1000mg em 60 cápsulas da Dark Lab. Óleo de peixe de alta qualidade para saúde cardiovascular, função cerebral, imunidade e controle inflamatório. Sem glúten."
+    },
+    {
+      "slug": "zinco-quelato-easy-boost-bisglicinato-29mg-90-capsulas",
+      "name": "Zinco Quelato Easy Boost Bisglicinato 100% 29mg 90 Cápsulas",
+      "url": "https://suplexsuplementos.com.br/produto/zinco-quelato-easy-boost-bisglicinato-29mg-90-capsulas",
+      "category": "Vitaminas e Minerais",
+      "rating": 4.9,
+      "reviews": 2314,
+      "shortDescription": "Zinco Quelato Bisglicinato 100% 29mg em 90 cápsulas da Easy Boost. 264% do VD por dose, sem glúten, sem lactose, sabor neutro. 1º em Suplementos Easy Boost no Mercado Livre."
+    },
+    {
+      "slug": "creatina-monohidratada-pura-300g-pote-ftw-suplemento-po",
+      "name": "Creatina Monohidratada Pura 300g Pote 100% FTW Suplemento em Pó",
+      "url": "https://suplexsuplementos.com.br/produto/creatina-monohidratada-pura-300g-pote-ftw-suplemento-po",
+      "category": "Creatina",
+      "rating": 4.8,
+      "reviews": 33474,
+      "shortDescription": "Creatina Monohidratada Micronizada 100% Pura 300g da FTW. 3g por dose, cerca de 100 porções, sem glúten. 3º em Suplementos FTW no Mercado Livre. 47% OFF no Pix."
+    },
+    {
+      "slug": "kit-3-calcas-feminina-legging-grossa-para-academia-cos-alto",
+      "name": "Kit 3 Calças Feminina Legging Grossa Para Academia Cós Alto",
+      "url": "https://suplexsuplementos.com.br/produto/kit-3-calcas-feminina-legging-grossa-para-academia-cos-alto",
+      "category": "Leggings",
+      "rating": 4.5,
+      "reviews": 22270,
+      "shortDescription": "Kit com 3 leggings grossas de cintura alta para academia. Tecido em poliamida e elastano com compressão suave, modelagem anatômica e alta durabilidade. 7ª em Calças e Joggings no Mercado Livre. 14% OFF no Pix com frete grátis."
+    },
+    {
+      "slug": "top-puma-original-feminino-alta-sustentacao-academia-fitness",
+      "name": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
+      "url": "https://suplexsuplementos.com.br/produto/top-puma-original-feminino-alta-sustentacao-academia-fitness",
+      "category": "Tops",
+      "rating": 4.8,
+      "reviews": 71235,
+      "shortDescription": "Top Puma Original modelo nadador com alta sustentação, sem costura e em microfibra respirável. Busto anatômico, base larga e pontos de compressão para suporte muscular. 1º em Tops de Fitness no Mercado Livre com mais de 250 mil vendidos."
+    },
+    {
+      "slug": "kit-elastico-resistencia-5-niveis-treino",
+      "name": "Kit Elástico de Resistência 5 Níveis para Treino",
+      "url": "https://suplexsuplementos.com.br/produto/kit-elastico-resistencia-5-niveis-treino",
+      "category": "Kits e Combos",
+      "rating": 4.8,
+      "reviews": 5200,
+      "shortDescription": "Kit com 5 elásticos de resistência progressiva para treino em casa, fisioterapia e musculação. Acompanha bolsa."
+    },
+    {
+      "slug": "top-plus-size-com-bojo-reforcado-feminino-academia-fitness",
+      "name": "Top Plus Size Com Bojo Reforçado Feminino Academia Fitness",
+      "url": "https://suplexsuplementos.com.br/produto/top-plus-size-com-bojo-reforcado-feminino-academia-fitness",
+      "category": "Tops",
+      "rating": 4.3,
+      "reviews": 611,
+      "shortDescription": "Top plus size com bojo reforçado em tecido Suplex de alta elasticidade. Modelagem anatômica com sustentação, ideal para academia, pilates e uso diário. 4ª em Top5 de Fitness no Mercado Livre."
+    },
+    {
+      "slug": "kit-2-top-fitness-plus-size-g1-g2-g3-sem-bojo-academia",
+      "name": "Kit 2 Top Fitness Plus Size G1 G2 G3 Sem Bojo Academia",
+      "url": "https://suplexsuplementos.com.br/produto/kit-2-top-fitness-plus-size-g1-g2-g3-sem-bojo-academia",
+      "category": "Tops",
+      "rating": 4.6,
+      "reviews": 651,
+      "shortDescription": "Kit com 2 tops fitness plus size sem bojo, confeccionado em poliéster com elastano. Alças largas, faixa inferior reforçada e decote valorizador. Ideal para academia, pilates e uso diário."
+    },
+    {
+      "slug": "conjunto-fitness-virginia-top-shorts-meia-coxa-cintura-alta",
+      "name": "Conjunto Fitness Virginia Top Shorts Meia Coxa Cintura Alta",
+      "url": "https://suplexsuplementos.com.br/produto/conjunto-fitness-virginia-top-shorts-meia-coxa-cintura-alta",
+      "category": "Conjuntos",
+      "rating": 4.4,
+      "reviews": 33161,
+      "shortDescription": "Conjunto fitness Virginia com top e shorts meia coxa de cintura alta. Tecido Suplex leve e respirável, ideal para academia, corrida e uso diário. 1º em Conjuntos no Mercado Livre."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "blog",
+      "title": "Blog",
+      "url": "https://suplexsuplementos.com.br/blog"
+    },
+    {
+      "slug": "contato",
+      "title": "Contato",
+      "url": "https://suplexsuplementos.com.br/contato"
+    },
+    {
+      "slug": "politicas",
+      "title": "Políticas",
+      "url": "https://suplexsuplementos.com.br/politicas"
+    }
+  ],
+  "sitemap": "https://suplexsuplementos.com.br/sitemap.xml",
+  "robots": "https://suplexsuplementos.com.br/robots.txt",
+  "llmsTxt": "https://suplexsuplementos.com.br/llms.txt",
+  "llmsFullTxt": "https://suplexsuplementos.com.br/llms-full.txt"
+}

@@ -1,12 +1,30 @@
 import { blogPosts, getBlogPostBySlug } from '@/lib/blog-data'
 import BlogPostPageClient from './BlogPostPageClient'
+import { notFound } from 'next/navigation'
 
+type Params = Promise<{ slug: string }>
+
+// ============================================================
+// GERAÇÃO DE PÁGINAS ESTÁTICAS
+// ============================================================
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }))
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const post = getBlogPostBySlug(params.slug) || blogPosts[0]
+// ============================================================
+// METADADOS DINÂMICOS
+// ============================================================
+export async function generateMetadata({ params }: { params: Params }) {
+  const { slug } = await params
+  const post = getBlogPostBySlug(slug)
+
+  if (!post) {
+    return {
+      title: 'Post não encontrado',
+      description: 'O post que você procura não está disponível.',
+    }
+  }
+
   return {
     title: post.title,
     description: post.excerpt,
@@ -23,18 +41,33 @@ export async function generateMetadata({ params }: { params: { slug: string } })
           width: 1200,
           height: 630,
           alt: post.title,
-        }
+        },
       ],
     },
   }
 }
 
+// ============================================================
+// FORMATAÇÃO DE DATA
+// ============================================================
 const formatDate = (dateStr: string) => {
-  return new Date(dateStr).toISOString()
+  try {
+    return new Date(dateStr).toISOString()
+  } catch {
+    return new Date().toISOString()
+  }
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPostBySlug(params.slug) || blogPosts[0]
+// ============================================================
+// PÁGINA
+// ============================================================
+export default async function BlogPostPage({ params }: { params: Params }) {
+  const { slug } = await params
+  const post = getBlogPostBySlug(slug)
+
+  if (!post) {
+    notFound()
+  }
 
   const schema = {
     '@context': 'https://schema.org',
@@ -70,7 +103,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <BlogPostPageClient slug={params.slug} />
+      <BlogPostPageClient slug={post.slug} />
     </>
   )
 }

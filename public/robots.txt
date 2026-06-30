@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /_vercel/
+
+Sitemap: https://suplexsuplementos.com.br/sitemap.xml
+Host: https://suplexsuplementos.com.br
+
+# Arquivos para LLMs e agentes de IA
+# llms.txt: https://suplexsuplementos.com.br/llms.txt
+# llms-full.txt: https://suplexsuplementos.com.br/llms-full.txt
+# llms-index.json: https://suplexsuplementos.com.br/llms-index.json
