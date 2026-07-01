@@ -105,8 +105,6 @@ export default function RootLayout({
         {/* ============================================= */}
         {/* Meta tags básicas e SEO */}
         {/* ============================================= */}
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* ============================================= */}
         {/* Link para LLMs (Agentes de IA) */}
@@ -185,15 +183,6 @@ export default function RootLayout({
               name: "Suplex Suplementos",
               url: "https://suplex-suplementos.pages.dev",
               inLanguage: "pt-BR",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: {
-                  "@type": "EntryPoint",
-                  urlTemplate:
-                    "https://suplex-suplementos.pages.dev/busca?q={search_term_string}",
-                },
-                "query-input": "required name=search_term_string",
-              },
             }),
           }}
         />
