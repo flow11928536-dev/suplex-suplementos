@@ -1,23 +1,19 @@
 User-agent: *
 
-# Permite indexação de todo o site
+# Permitir indexação completa
 Allow: /
-
-# Permite ao Google acessar os arquivos necessários para renderizar o site
+# Permitir arquivos do Next.js
 Allow: /_next/
 Allow: /_next/static/
 
-# Bloqueia apenas áreas que não devem ser indexadas
+# Bloquear apenas áreas privadas
 Disallow: /api/
 Disallow: /_vercel/
 
-# Sitemap
-Sitemap: https://suplex-suplementos.pages.dev/sitemap.xml
+Sitemap: https://suplexsuplementos.com.br/sitemap.xml
+Host: https://suplexsuplementos.com.br
 
-# Host atual
-Host: https://suplex-suplementos.pages.dev
-
-# Arquivos para LLMs e agentes de IA
-# llms.txt: https://suplex-suplementos.pages.dev/llms.txt
-# llms-full.txt: https://suplex-suplementos.pages.dev/llms-full.txt
-# llms-index.json: https://suplex-suplementos.pages.dev/llms-index.json
+# Arquivos para agentes de IA
+# llms.txt: https://suplexsuplementos.com.br/llms.txt
+# llms-full.txt: https://suplexsuplementos.com.br/llms-full.txt
+# llms-index.json: https://suplexsuplementos.com.br/llms-index.json

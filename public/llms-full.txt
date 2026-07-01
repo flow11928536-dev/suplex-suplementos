@@ -1,12 +1,12 @@
 # Suplex Suplementos - Full Index
 # Site: https://suplexsuplementos.com.br
 # Lista completa de produtos e páginas
-# Gerado em: 2026-06-30T20:54:55.864Z
+# Gerado em: 2026-07-01T01:55:27.633Z
 
 ## Página Inicial
 - https://suplexsuplementos.com.br - Guia completo de suplementos alimentares no Brasil. Reviews, comparações e melhores preços de whey protein, creatina, pré-treino e muito mais.
 
-## Produtos (todos)
+## Produtos
 - https://suplexsuplementos.com.br/produto/w100-whey-concentrado-900g-cookies-cream-nutrata - W100 Whey Concentrado Pouch 900g Cookies & Cream Nutrata (Whey Protein) - 4.8★ (7323 reviews)
 - https://suplexsuplementos.com.br/produto/whey-protein-concentrado-1kg-chocolate-belga-soldiers-nutrition - Whey Protein Concentrado 1kg Chocolate Belga Soldiers Nutrition (Whey Protein) - 4.8★ (28049 reviews)
 - https://suplexsuplementos.com.br/produto/whey-protein-ultra-refil-900g-baunilha-ftw - Whey Protein Ultra Refil 900g Baunilha FTW (Whey Protein) - 4.8★ (28877 reviews)
@@ -88,9 +88,9 @@
 - https://suplexsuplementos.com.br/categoria/linha-fitness-feminina - Linha Fitness Feminina: Roupas e acessórios fitness para mulheres
 - https://suplexsuplementos.com.br/categoria/kits-e-combos - Kits e Combos: Tapetes, equipamentos e acessórios de ginástica
 
-## Páginas Estáticas
-- https://suplexsuplementos.com.br/blog - Artigos e guias
-- https://suplexsuplementos.com.br/contato - Fale conosco
-- https://suplexsuplementos.com.br/politicas - Políticas de privacidade
+## Páginas
+- https://suplexsuplementos.com.br/blog
+- https://suplexsuplementos.com.br/contato
+- https://suplexsuplementos.com.br/politicas
 
-# Gerado automaticamente a partir dos dados do site.
+# Arquivo gerado automaticamente.

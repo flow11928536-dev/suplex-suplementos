@@ -34,34 +34,45 @@ const nextConfig: NextConfig = {
   // Headers personalizados (SEO e segurança)
   // ================================
   async headers() {
-    return [
-      {
-        source: "/:path*",
-        headers: [
-          {
-            key: "X-Robots-Tag",
-            value: "index, follow",
-          },
-          {
-            key: "Referrer-Policy",
-            value: "strict-origin-when-cross-origin",
-          },
-          {
-            key: "Permissions-Policy",
-            value: "geolocation=(), camera=(), microphone=()",
-          },
-          {
-            key: "X-Content-Type-Options",
-            value: "nosniff",
-          },
-          {
-            key: "X-Frame-Options",
-            value: "DENY",
-          },
-        ],
-      },
-    ];
-  },
+  return [
+    {
+      source: "/:path*",
+      headers: [
+        {
+          key: "X-Robots-Tag",
+          value: "index, follow",
+        },
+        {
+          key: "Referrer-Policy",
+          value: "strict-origin-when-cross-origin",
+        },
+        {
+          key: "Permissions-Policy",
+          value: "geolocation=(), camera=(), microphone=()",
+        },
+        {
+          key: "X-Content-Type-Options",
+          value: "nosniff",
+        },
+        {
+          key: "X-Frame-Options",
+          value: "DENY",
+        },
+        // 👇 ADICIONE ESTA LINHA
+        {
+          key: "Content-Security-Policy",
+          value: [
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.clarity.ms https://www.clarity.ms/tag",
+            "img-src 'self' data: https://images.unsplash.com https://www.clarity.ms",
+            "style-src 'self' 'unsafe-inline'",
+            "font-src 'self'",
+            "connect-src 'self' https://www.clarity.ms https://api.clarity.ms",
+          ].join('; '),
+        },
+      ],
+    },
+  ];
+},
 
   // ================================
   // Redirects (para preservar URLs antigas, se necessário)
