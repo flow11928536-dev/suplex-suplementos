@@ -3215,6 +3215,7 @@ export function generateProductJsonLd(product: Product, baseUrl: string) {
     offers: {
       "@type": "Offer",
       priceCurrency: "BRL",
+      price: "0", // 👈 Adicionado para atender à exigência do Google
       availability: "https://schema.org/InStock",
       url: product.affiliateLink,
     },
@@ -3229,10 +3230,7 @@ export function generateProductJsonLd(product: Product, baseUrl: string) {
         mainEntity: product.faq.map(f => ({
           "@type": "Question",
           name: f.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: f.answer,
-          },
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
         })),
       },
     }),
