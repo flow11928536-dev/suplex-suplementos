@@ -1,7 +1,7 @@
 # Suplex Suplementos - Full Index
 # Site: https://suplexsuplementos.com.br
 # Lista completa de produtos e páginas
-# Gerado em: 2026-07-01T02:09:51.190Z
+# Gerado em: 2026-07-01T02:18:19.616Z
 
 ## Página Inicial
 - https://suplexsuplementos.com.br - Guia completo de suplementos alimentares no Brasil. Reviews, comparações e melhores preços de whey protein, creatina, pré-treino e muito mais.
